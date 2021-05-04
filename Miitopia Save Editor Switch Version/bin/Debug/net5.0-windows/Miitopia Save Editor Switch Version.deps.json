@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Miitopia Save Editor Switch Version/1.0.0": {
+        "runtime": {
+          "Miitopia Save Editor Switch Version.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Miitopia Save Editor Switch Version/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
