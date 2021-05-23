@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Miitopia Save Editor Switch Version", "Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version.vbproj", "{A6CE4269-BCC9-427D-9F0A-73A7642D933E}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Miitopia Save Editor Switch Version", "Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version.vbproj", "{37891DB4-20C3-44E2-8F24-3E59BC42154B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A6CE4269-BCC9-427D-9F0A-73A7642D933E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6CE4269-BCC9-427D-9F0A-73A7642D933E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6CE4269-BCC9-427D-9F0A-73A7642D933E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6CE4269-BCC9-427D-9F0A-73A7642D933E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37891DB4-20C3-44E2-8F24-3E59BC42154B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37891DB4-20C3-44E2-8F24-3E59BC42154B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37891DB4-20C3-44E2-8F24-3E59BC42154B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37891DB4-20C3-44E2-8F24-3E59BC42154B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B922165B-E75E-408A-BCFC-405F23A6D9E9}
+		SolutionGuid = {BAA8D75C-2269-437B-8E84-B0E9136A3045}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,17 @@
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\bin\Release\Miitopia Save Editor Switch Version.exe.config
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\bin\Release\Miitopia Save Editor Switch Version.exe
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\bin\Release\Miitopia Save Editor Switch Version.pdb
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\bin\Release\Miitopia Save Editor Switch Version.xml
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\bin\Release\PackageIO.dll
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Release\Miitopia Save Editor Switch Version.vbprojAssemblyReference.cache
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Release\Miitopia_Save_Editor_Switch_Version.MSE_dialog.resources
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Release\Miitopia_Save_Editor_Switch_Version.MSE_hub.resources
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Release\Miitopia_Save_Editor_Switch_Version.MSE_inventory.resources
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Release\Miitopia_Save_Editor_Switch_Version.MSE_loading.resources
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Release\Miitopia_Save_Editor_Switch_Version.Resources.resources
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Release\Miitopia Save Editor Switch Version.vbproj.GenerateResource.cache
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Release\Miitopia Save Editor Switch Version.vbproj.CoreCompileInputs.cache
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Release\Miitopia Save Editor Switch Version.vbproj.CopyComplete
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Release\Miitopia Save Editor Switch Version.exe
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Release\Miitopia Save Editor Switch Version.xml
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Release\Miitopia Save Editor Switch Version.pdb
