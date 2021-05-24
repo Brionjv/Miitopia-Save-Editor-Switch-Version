@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class MSE_inventory
     Inherits System.Windows.Forms.Form
 
     'Form remplace la méthode Dispose pour nettoyer la liste des composants.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class MSE_inventory
     'REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
     'Elle peut être modifiée à l'aide du Concepteur Windows Form.  
     'Ne la modifiez pas à l'aide de l'éditeur de code.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MSE_inventory))
         Me.MSE_header = New System.Windows.Forms.Panel()
@@ -101,7 +101,6 @@ Partial Class MSE_inventory
         Me.Icon_outingticket_1 = New System.Windows.Forms.PictureBox()
         Me.Text_outingsticket = New System.Windows.Forms.Label()
         Me.Icon_menu = New System.Windows.Forms.PictureBox()
-        Me.valu_checkMSEupdate = New System.Windows.Forms.NumericUpDown()
         Me.MSE_header.SuspendLayout()
         CType(Me.MSE_title, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_minimize, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -148,7 +147,6 @@ Partial Class MSE_inventory
         CType(Me.valu_outingticket_1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_outingticket_1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_menu, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.valu_checkMSEupdate, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MSE_header
@@ -1006,22 +1004,12 @@ Partial Class MSE_inventory
         Me.Icon_menu.TabIndex = 11
         Me.Icon_menu.TabStop = False
         '
-        'valu_checkMSEupdate
-        '
-        Me.valu_checkMSEupdate.Location = New System.Drawing.Point(188, 53)
-        Me.valu_checkMSEupdate.Maximum = New Decimal(New Integer() {1410065407, 2, 0, 0})
-        Me.valu_checkMSEupdate.Name = "valu_checkMSEupdate"
-        Me.valu_checkMSEupdate.Size = New System.Drawing.Size(36, 20)
-        Me.valu_checkMSEupdate.TabIndex = 12
-        Me.valu_checkMSEupdate.Visible = False
-        '
         'MSE_inventory
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(830, 700)
-        Me.Controls.Add(Me.valu_checkMSEupdate)
         Me.Controls.Add(Me.Icon_menu)
         Me.Controls.Add(Me.Fea_outingstickets)
         Me.Controls.Add(Me.Fea_gametickets)
@@ -1083,7 +1071,6 @@ Partial Class MSE_inventory
         CType(Me.valu_outingticket_1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_outingticket_1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_menu, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.valu_checkMSEupdate, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1166,5 +1153,4 @@ Partial Class MSE_inventory
     Friend WithEvents valu_outingticket_1 As NumericUpDown
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents valu_checkMSEupdate As NumericUpDown
 End Class

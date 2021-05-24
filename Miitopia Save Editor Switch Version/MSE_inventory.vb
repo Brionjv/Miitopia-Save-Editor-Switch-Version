@@ -30,6 +30,7 @@ Public Class MSE_inventory
 
     'base
     Private Sub Icon_close_Click(sender As Object, e As EventArgs) Handles Icon_close.Click
+        My.Settings.Para_ckupdate = 0
         Me.Close()
     End Sub
 
@@ -85,7 +86,6 @@ Public Class MSE_inventory
 
     'load process
     Private Sub MSE_inventory_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        valu_checkMSEupdate.Value = MSE_hub.valu_checkMSEupdate.Value
         If MSE_hub.Text_filepath.Text = Nothing Then
         Else
             ReadMSEinventory()
@@ -141,8 +141,7 @@ Public Class MSE_inventory
     'end load process
 
     'keep settings
-    Private Sub MSE_inventory_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
-        MSE_hub.valu_checkMSEupdate.Value = valu_checkMSEupdate.Value
+    Private Sub MSE_inventory_FormClosing(sender As Object, e As CancelEventArgs) Handles Me.FormClosing
         MSE_hub.Text_filepath.Text = mainsav
     End Sub
     'end keep settings
@@ -277,6 +276,7 @@ Public Class MSE_inventory
             MSE_dialog.ShowDialog()
         Catch ex As Exception
             MSE_dialog.text_dialog.Text = "Failed to write inventory" & vbNewLine & "Check if your save file is not used with an other application or report this issue"
+            MSE_dialog.ShowDialog()
         End Try
     End Sub
 End Class

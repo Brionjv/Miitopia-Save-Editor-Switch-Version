@@ -105,6 +105,12 @@
     <Compile Include="MSE_loading.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MSE_unlockable.Designer.vb">
+      <DependentUpon>MSE_unlockable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MSE_unlockable.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -135,6 +141,9 @@
     <EmbeddedResource Include="MSE_loading.resx">
       <DependentUpon>MSE_loading.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MSE_unlockable.resx">
+      <DependentUpon>MSE_unlockable.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -156,6 +165,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\bg_unloclallamiibo.png" />
+    <None Include="Resources\bg_unlocksprinkles.png" />
+    <None Include="Resources\bg_unlockallclasses.png" />
     <None Include="Resources\MSE_logo_update.gif" />
     <None Include="Resources\icon_outingticket.png" />
     <None Include="Resources\icon_menu.png" />

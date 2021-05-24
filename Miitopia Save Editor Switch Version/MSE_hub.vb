@@ -10,6 +10,7 @@ Public Class MSE_hub
 
     'base
     Private Sub Icon_close_Click(sender As Object, e As EventArgs) Handles Icon_close.Click
+        valu_checkMSEupdate.Value = 0
         Me.Close()
     End Sub
 
@@ -72,6 +73,18 @@ Public Class MSE_hub
         Menu_inventory.BackgroundImage = My.Resources.menu_inventory_on
     End Sub
 
+    Private Sub Menu_text_unlockable_Click(sender As Object, e As EventArgs) Handles Menu_text_unlockable.Click
+        MSE_unlockable.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Menu_text_unlockable_MouseLeave(sender As Object, e As EventArgs) Handles Menu_text_unlockable.MouseLeave
+        Menu_unlockable.BackgroundImage = My.Resources.menu_unlockable_off
+    End Sub
+
+    Private Sub Menu_text_unlockable_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_unlockable.MouseMove
+        Menu_unlockable.BackgroundImage = My.Resources.menu_unlockable_on
+    End Sub
     'end menu
 
     'update
@@ -97,16 +110,23 @@ Public Class MSE_hub
             MSE_dialog.text_dialog.Text = "Failed to check if an update is available"
             MSE_dialog.ShowDialog()
         End Try
-        valu_checkMSEupdate.Value = valu_checkMSEupdate.Value + 1
+        valu_checkMSEupdate.Value = 1
     End Sub
     'end update
 
+    'keep settings
     Private Sub MSE_hub_Shown(sender As Object, e As EventArgs) Handles MyBase.Shown
         If valu_checkMSEupdate.Value = 0 Then
             CheckMSEupdate()
         End If
     End Sub
-
+    Private Sub MSE_hub_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Try
+            valu_checkMSEupdate.Value = My.Settings.Para_ckupdate
+        Catch ex As Exception
+        End Try
+    End Sub
+    'end keep settings
     Private Sub Button_open_Click(sender As Object, e As EventArgs) Handles Button_open.Click
         Dim open As New OpenFileDialog
         MSE_dialog.text_dialog.Text = "Open main.sav file" & vbNewLine & "Miitopia Save Editor will make a backup of your save file before any changes, check ''backup'' folder"
@@ -126,5 +146,9 @@ Public Class MSE_hub
                        applicationpath & "\backup\main.sav\" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute & "\main.sav")
         Catch ex As Exception
         End Try
+    End Sub
+
+    Private Sub MSE_hub_Closing(sender As Object, e As FormClosingEventArgs) Handles Me.Closing
+        My.Settings.Para_ckupdate = valu_checkMSEupdate.Value
     End Sub
 End Class
