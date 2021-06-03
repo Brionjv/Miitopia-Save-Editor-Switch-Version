@@ -105,6 +105,12 @@
     <Compile Include="MSE_loading.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MSE_success.Designer.vb">
+      <DependentUpon>MSE_success.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MSE_success.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MSE_unlockable.Designer.vb">
       <DependentUpon>MSE_unlockable.vb</DependentUpon>
     </Compile>
@@ -141,6 +147,9 @@
     <EmbeddedResource Include="MSE_loading.resx">
       <DependentUpon>MSE_loading.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MSE_success.resx">
+      <DependentUpon>MSE_success.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MSE_unlockable.resx">
       <DependentUpon>MSE_unlockable.vb</DependentUpon>
     </EmbeddedResource>
@@ -165,6 +174,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\menu_party_on.png" />
+    <None Include="Resources\menu_party_off.png" />
+    <None Include="Resources\bg_rescued.png" />
     <None Include="Resources\bg_unloclallamiibo.png" />
     <None Include="Resources\bg_unlocksprinkles.png" />
     <None Include="Resources\bg_unlockallclasses.png" />

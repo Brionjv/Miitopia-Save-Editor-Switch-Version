@@ -143,6 +143,16 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property bg_rescued() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("bg_rescued", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property bg_unlockallclasses() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("bg_unlockallclasses", resourceCulture)
@@ -276,6 +286,26 @@ Namespace My.Resources
         Friend ReadOnly Property menu_inventory_on() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("menu_inventory_on", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property menu_party_off() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("menu_party_off", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property menu_party_on() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("menu_party_on", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

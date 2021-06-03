@@ -132,6 +132,21 @@ Public Class MSE_unlockable
         End Try
     End Sub
 
+    Private Sub valu_unlock_classes_ValueChanged(sender As Object, e As EventArgs) Handles valu_unlock_classes.ValueChanged
+        If valu_unlock_classes.Value = &H3FFF Then
+            Fea_unlock_classes.BorderStyle = BorderStyle.FixedSingle
+        End If
+    End Sub
 
+    Private Sub valu_unlock_amiibo_ValueChanged(sender As Object, e As EventArgs) Handles valu_unlock_amiibo.ValueChanged
+        If valu_unlock_amiibo.Value = 4294967295 Then
+            Fea_unlock_amiibo.BorderStyle = BorderStyle.FixedSingle
+        End If
+    End Sub
 
+    Private Sub valu_unlock_sprinkles_ValueChanged(sender As Object, e As EventArgs) Handles valu_unlock_sprinkles.ValueChanged
+        If valu_unlock_sprinkles.Value = &HFF Then
+            Fea_unlock_sprinkles.BorderStyle = BorderStyle.FixedSingle
+        End If
+    End Sub
 End Class

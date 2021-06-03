@@ -85,6 +85,20 @@ Public Class MSE_hub
     Private Sub Menu_text_unlockable_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_unlockable.MouseMove
         Menu_unlockable.BackgroundImage = My.Resources.menu_unlockable_on
     End Sub
+
+    Private Sub Menu_text_success_Click(sender As Object, e As EventArgs) Handles Menu_text_success.Click
+        MSE_success.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Menu_text_success_MouseLeave(sender As Object, e As EventArgs) Handles Menu_text_success.MouseLeave
+        Menu_success.BackgroundImage = My.Resources.menu_success_off
+    End Sub
+
+    Private Sub Menu_text_success_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_success.MouseMove
+        Menu_success.BackgroundImage = My.Resources.menu_success_on
+    End Sub
+
     'end menu
 
     'update

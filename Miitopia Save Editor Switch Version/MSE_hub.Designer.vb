@@ -38,10 +38,12 @@ Partial Class MSE_hub
         Me.Text_filepath = New System.Windows.Forms.TextBox()
         Me.Menu_unlockable = New System.Windows.Forms.Panel()
         Me.Menu_text_unlockable = New System.Windows.Forms.Label()
-        Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Menu_success = New System.Windows.Forms.Panel()
+        Me.Menu_text_success = New System.Windows.Forms.Label()
         Me.MSE_logo_update = New System.Windows.Forms.PictureBox()
         Me.valu_checkMSEupdate = New System.Windows.Forms.NumericUpDown()
+        Me.Menu_party = New System.Windows.Forms.Panel()
+        Me.Menu_text_party = New System.Windows.Forms.Label()
         Me.MSE_header.SuspendLayout()
         CType(Me.MSE_title, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_minimize, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -51,9 +53,10 @@ Partial Class MSE_hub
         Me.Panel_description.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Menu_unlockable.SuspendLayout()
-        Me.Panel4.SuspendLayout()
+        Me.Menu_success.SuspendLayout()
         CType(Me.MSE_logo_update, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_checkMSEupdate, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Menu_party.SuspendLayout()
         Me.SuspendLayout()
         '
         'MSE_header
@@ -115,7 +118,7 @@ Partial Class MSE_hub
         Me.Menu_inventory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Menu_inventory.Controls.Add(Me.Menu_text_inventory)
         Me.Menu_inventory.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Menu_inventory.Location = New System.Drawing.Point(113, 146)
+        Me.Menu_inventory.Location = New System.Drawing.Point(28, 146)
         Me.Menu_inventory.Name = "Menu_inventory"
         Me.Menu_inventory.Size = New System.Drawing.Size(160, 120)
         Me.Menu_inventory.TabIndex = 2
@@ -162,7 +165,7 @@ Partial Class MSE_hub
         Me.MSE_version.Name = "MSE_version"
         Me.MSE_version.Size = New System.Drawing.Size(100, 23)
         Me.MSE_version.TabIndex = 4
-        Me.MSE_version.Text = "Version 1.1.1"
+        Me.MSE_version.Text = "Version 1.2.0"
         Me.MSE_version.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Panel2
@@ -204,7 +207,7 @@ Partial Class MSE_hub
         Me.Menu_unlockable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Menu_unlockable.Controls.Add(Me.Menu_text_unlockable)
         Me.Menu_unlockable.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Menu_unlockable.Location = New System.Drawing.Point(335, 146)
+        Me.Menu_unlockable.Location = New System.Drawing.Point(233, 146)
         Me.Menu_unlockable.Name = "Menu_unlockable"
         Me.Menu_unlockable.Size = New System.Drawing.Size(160, 120)
         Me.Menu_unlockable.TabIndex = 7
@@ -222,31 +225,30 @@ Partial Class MSE_hub
         Me.Menu_text_unlockable.Text = "Unlockable"
         Me.Menu_text_unlockable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Panel4
+        'Menu_success
         '
-        Me.Panel4.BackColor = System.Drawing.Color.Transparent
-        Me.Panel4.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.menu_success_off
-        Me.Panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Panel4.Controls.Add(Me.Label4)
-        Me.Panel4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Panel4.Enabled = False
-        Me.Panel4.Location = New System.Drawing.Point(557, 146)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(160, 120)
-        Me.Panel4.TabIndex = 8
+        Me.Menu_success.BackColor = System.Drawing.Color.Transparent
+        Me.Menu_success.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.menu_success_off
+        Me.Menu_success.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Menu_success.Controls.Add(Me.Menu_text_success)
+        Me.Menu_success.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Menu_success.Location = New System.Drawing.Point(438, 146)
+        Me.Menu_success.Name = "Menu_success"
+        Me.Menu_success.Size = New System.Drawing.Size(160, 120)
+        Me.Menu_success.TabIndex = 8
         '
-        'Label4
+        'Menu_text_success
         '
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(0, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(160, 120)
-        Me.Label4.TabIndex = 0
-        Me.Label4.Text = "Success"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Menu_text_success.BackColor = System.Drawing.Color.Transparent
+        Me.Menu_text_success.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Menu_text_success.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Menu_text_success.ForeColor = System.Drawing.Color.White
+        Me.Menu_text_success.Location = New System.Drawing.Point(0, 0)
+        Me.Menu_text_success.Name = "Menu_text_success"
+        Me.Menu_text_success.Size = New System.Drawing.Size(160, 120)
+        Me.Menu_text_success.TabIndex = 0
+        Me.Menu_text_success.Text = "Success"
+        Me.Menu_text_success.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'MSE_logo_update
         '
@@ -268,15 +270,41 @@ Partial Class MSE_hub
         Me.valu_checkMSEupdate.TabIndex = 10
         Me.valu_checkMSEupdate.Visible = False
         '
+        'Menu_party
+        '
+        Me.Menu_party.BackColor = System.Drawing.Color.Transparent
+        Me.Menu_party.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.menu_party_off
+        Me.Menu_party.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Menu_party.Controls.Add(Me.Menu_text_party)
+        Me.Menu_party.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Menu_party.Location = New System.Drawing.Point(643, 146)
+        Me.Menu_party.Name = "Menu_party"
+        Me.Menu_party.Size = New System.Drawing.Size(160, 120)
+        Me.Menu_party.TabIndex = 11
+        '
+        'Menu_text_party
+        '
+        Me.Menu_text_party.BackColor = System.Drawing.Color.Transparent
+        Me.Menu_text_party.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Menu_text_party.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Menu_text_party.ForeColor = System.Drawing.Color.White
+        Me.Menu_text_party.Location = New System.Drawing.Point(0, 0)
+        Me.Menu_text_party.Name = "Menu_text_party"
+        Me.Menu_text_party.Size = New System.Drawing.Size(160, 120)
+        Me.Menu_text_party.TabIndex = 0
+        Me.Menu_text_party.Text = "Party"
+        Me.Menu_text_party.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'MSE_hub
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_green
         Me.ClientSize = New System.Drawing.Size(830, 383)
+        Me.Controls.Add(Me.Menu_party)
         Me.Controls.Add(Me.valu_checkMSEupdate)
         Me.Controls.Add(Me.MSE_logo_update)
-        Me.Controls.Add(Me.Panel4)
+        Me.Controls.Add(Me.Menu_success)
         Me.Controls.Add(Me.Menu_unlockable)
         Me.Controls.Add(Me.Text_filepath)
         Me.Controls.Add(Me.Panel2)
@@ -299,9 +327,10 @@ Partial Class MSE_hub
         Me.Panel_description.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Menu_unlockable.ResumeLayout(False)
-        Me.Panel4.ResumeLayout(False)
+        Me.Menu_success.ResumeLayout(False)
         CType(Me.MSE_logo_update, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_checkMSEupdate, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Menu_party.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -322,8 +351,10 @@ Partial Class MSE_hub
     Friend WithEvents Text_filepath As TextBox
     Friend WithEvents Menu_unlockable As Panel
     Friend WithEvents Menu_text_unlockable As Label
-    Friend WithEvents Panel4 As Panel
-    Friend WithEvents Label4 As Label
+    Friend WithEvents Menu_success As Panel
+    Friend WithEvents Menu_text_success As Label
     Friend WithEvents MSE_logo_update As PictureBox
     Friend WithEvents valu_checkMSEupdate As NumericUpDown
+    Friend WithEvents Menu_party As Panel
+    Friend WithEvents Menu_text_party As Label
 End Class
