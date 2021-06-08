@@ -32,8 +32,8 @@ Partial Class MSE_success
         Me.Icon_close = New System.Windows.Forms.PictureBox()
         Me.MSE_logo = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Text_rescued = New System.Windows.Forms.Label()
         Me.valu_gametickets = New System.Windows.Forms.NumericUpDown()
+        Me.Text_rescued = New System.Windows.Forms.Label()
         CType(Me.Icon_menu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         Me.MSE_header.SuspendLayout()
@@ -142,16 +142,6 @@ Partial Class MSE_success
         Me.Panel1.Size = New System.Drawing.Size(180, 36)
         Me.Panel1.TabIndex = 20
         '
-        'Text_rescued
-        '
-        Me.Text_rescued.ForeColor = System.Drawing.Color.White
-        Me.Text_rescued.Location = New System.Drawing.Point(15, 5)
-        Me.Text_rescued.Name = "Text_rescued"
-        Me.Text_rescued.Size = New System.Drawing.Size(74, 23)
-        Me.Text_rescued.TabIndex = 21
-        Me.Text_rescued.Text = "Rescued : "
-        Me.Text_rescued.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
         'valu_gametickets
         '
         Me.valu_gametickets.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -163,11 +153,21 @@ Partial Class MSE_success
         Me.valu_gametickets.TabIndex = 22
         Me.valu_gametickets.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'Text_rescued
+        '
+        Me.Text_rescued.ForeColor = System.Drawing.Color.White
+        Me.Text_rescued.Location = New System.Drawing.Point(15, 5)
+        Me.Text_rescued.Name = "Text_rescued"
+        Me.Text_rescued.Size = New System.Drawing.Size(74, 23)
+        Me.Text_rescued.TabIndex = 21
+        Me.Text_rescued.Text = "Rescued : "
+        Me.Text_rescued.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
         'MSE_success
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_violet
         Me.ClientSize = New System.Drawing.Size(830, 250)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Icon_menu)
@@ -175,6 +175,7 @@ Partial Class MSE_success
         Me.Controls.Add(Me.MSE_header)
         Me.Controls.Add(Me.MSE_logo)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "MSE_success"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MSE_success"

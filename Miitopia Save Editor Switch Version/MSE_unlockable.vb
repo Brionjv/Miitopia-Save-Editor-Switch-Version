@@ -77,12 +77,39 @@ Public Class MSE_unlockable
         valu_unlock_amiibo.Value = 4294967295
     End Sub
 
+    Private Sub Fea_unlock_amiibo_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_unlock_amiibo.MouseMove
+        Text_description.Text = "Click to unlock all amiibo outfits"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Fea_unlock_amiibo_MouseLeave(sender As Object, e As EventArgs) Handles Fea_unlock_amiibo.MouseLeave
+        Panel_description.Visible = False
+    End Sub
+
     Private Sub Fea_unlock_classes_Click(sender As Object, e As EventArgs) Handles Fea_unlock_classes.Click
         valu_unlock_classes.Value = &H3FFF
     End Sub
 
+    Private Sub Fea_unlock_classes_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_unlock_classes.MouseMove
+        Text_description.Text = "Click to unlock all classes"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Fea_unlock_classes_MouseLeave(sender As Object, e As EventArgs) Handles Fea_unlock_classes.MouseLeave
+        Panel_description.Visible = False
+    End Sub
+
     Private Sub Fea_unlock_sprinkles_Click(sender As Object, e As EventArgs) Handles Fea_unlock_sprinkles.Click
         valu_unlock_sprinkles.Value = &HFF
+    End Sub
+
+    Private Sub Fea_unlock_sprinkles_MouseMove(sender As Object, e As MouseEventArgs) Handles Fea_unlock_sprinkles.MouseMove
+        Text_description.Text = "Click to unlock all sprinkles"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Fea_unlock_sprinkles_MouseLeave(sender As Object, e As EventArgs) Handles Fea_unlock_sprinkles.MouseLeave
+        Panel_description.Visible = False
     End Sub
 
     'load process
@@ -149,4 +176,6 @@ Public Class MSE_unlockable
             Fea_unlock_sprinkles.BorderStyle = BorderStyle.FixedSingle
         End If
     End Sub
+
+
 End Class

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class MSE_unlockable
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class MSE_horse
     Inherits System.Windows.Forms.Form
 
     'Form remplace la méthode Dispose pour nettoyer la liste des composants.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,9 +20,9 @@ Partial Class MSE_unlockable
     'REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
     'Elle peut être modifiée à l'aide du Concepteur Windows Form.  
     'Ne la modifiez pas à l'aide de l'éditeur de code.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MSE_unlockable))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MSE_horse))
         Me.Icon_menu = New System.Windows.Forms.PictureBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Button_save = New System.Windows.Forms.Label()
@@ -31,12 +31,10 @@ Partial Class MSE_unlockable
         Me.Icon_minimize = New System.Windows.Forms.PictureBox()
         Me.Icon_close = New System.Windows.Forms.PictureBox()
         Me.MSE_logo = New System.Windows.Forms.PictureBox()
-        Me.Fea_unlock_classes = New System.Windows.Forms.Panel()
-        Me.valu_unlock_classes = New System.Windows.Forms.NumericUpDown()
-        Me.Fea_unlock_amiibo = New System.Windows.Forms.Panel()
-        Me.valu_unlock_amiibo = New System.Windows.Forms.NumericUpDown()
-        Me.Fea_unlock_sprinkles = New System.Windows.Forms.Panel()
-        Me.valu_unlock_sprinkles = New System.Windows.Forms.NumericUpDown()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Text_horsename = New System.Windows.Forms.TextBox()
+        Me.Title_horsename = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel_description = New System.Windows.Forms.Panel()
         Me.Text_description = New System.Windows.Forms.Label()
         CType(Me.Icon_menu, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -46,12 +44,8 @@ Partial Class MSE_unlockable
         CType(Me.Icon_minimize, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_close, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Fea_unlock_classes.SuspendLayout()
-        CType(Me.valu_unlock_classes, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Fea_unlock_amiibo.SuspendLayout()
-        CType(Me.valu_unlock_amiibo, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Fea_unlock_sprinkles.SuspendLayout()
-        CType(Me.valu_unlock_sprinkles, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_description.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -63,7 +57,7 @@ Partial Class MSE_unlockable
         Me.Icon_menu.Location = New System.Drawing.Point(120, 50)
         Me.Icon_menu.Name = "Icon_menu"
         Me.Icon_menu.Size = New System.Drawing.Size(62, 50)
-        Me.Icon_menu.TabIndex = 15
+        Me.Icon_menu.TabIndex = 19
         Me.Icon_menu.TabStop = False
         '
         'Panel2
@@ -75,7 +69,7 @@ Partial Class MSE_unlockable
         Me.Panel2.Location = New System.Drawing.Point(717, 53)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(110, 45)
-        Me.Panel2.TabIndex = 14
+        Me.Panel2.TabIndex = 18
         '
         'Button_save
         '
@@ -99,7 +93,7 @@ Partial Class MSE_unlockable
         Me.MSE_header.Location = New System.Drawing.Point(120, 0)
         Me.MSE_header.Name = "MSE_header"
         Me.MSE_header.Size = New System.Drawing.Size(710, 50)
-        Me.MSE_header.TabIndex = 13
+        Me.MSE_header.TabIndex = 17
         '
         'MSE_title
         '
@@ -138,86 +132,48 @@ Partial Class MSE_unlockable
         Me.MSE_logo.Location = New System.Drawing.Point(0, 0)
         Me.MSE_logo.Name = "MSE_logo"
         Me.MSE_logo.Size = New System.Drawing.Size(120, 100)
-        Me.MSE_logo.TabIndex = 12
+        Me.MSE_logo.TabIndex = 16
         Me.MSE_logo.TabStop = False
         '
-        'Fea_unlock_classes
+        'Panel1
         '
-        Me.Fea_unlock_classes.BackColor = System.Drawing.Color.Transparent
-        Me.Fea_unlock_classes.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_unlockallclasses
-        Me.Fea_unlock_classes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Fea_unlock_classes.Controls.Add(Me.valu_unlock_classes)
-        Me.Fea_unlock_classes.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_unlock_classes.Location = New System.Drawing.Point(156, 135)
-        Me.Fea_unlock_classes.Name = "Fea_unlock_classes"
-        Me.Fea_unlock_classes.Size = New System.Drawing.Size(150, 150)
-        Me.Fea_unlock_classes.TabIndex = 16
+        Me.Panel1.BackColor = System.Drawing.Color.Transparent
+        Me.Panel1.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_horsename
+        Me.Panel1.Controls.Add(Me.Text_horsename)
+        Me.Panel1.Controls.Add(Me.Title_horsename)
+        Me.Panel1.Location = New System.Drawing.Point(300, 120)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(230, 50)
+        Me.Panel1.TabIndex = 20
         '
-        'valu_unlock_classes
+        'Text_horsename
         '
-        Me.valu_unlock_classes.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.valu_unlock_classes.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_unlock_classes.Cursor = System.Windows.Forms.Cursors.Default
-        Me.valu_unlock_classes.Hexadecimal = True
-        Me.valu_unlock_classes.Location = New System.Drawing.Point(3, 131)
-        Me.valu_unlock_classes.Maximum = New Decimal(New Integer() {65535, 0, 0, 0})
-        Me.valu_unlock_classes.Name = "valu_unlock_classes"
-        Me.valu_unlock_classes.Size = New System.Drawing.Size(77, 16)
-        Me.valu_unlock_classes.TabIndex = 2
-        Me.valu_unlock_classes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_unlock_classes.Visible = False
+        Me.Text_horsename.Location = New System.Drawing.Point(35, 24)
+        Me.Text_horsename.Name = "Text_horsename"
+        Me.Text_horsename.Size = New System.Drawing.Size(161, 20)
+        Me.Text_horsename.TabIndex = 1
+        Me.Text_horsename.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Fea_unlock_amiibo
+        'Title_horsename
         '
-        Me.Fea_unlock_amiibo.BackColor = System.Drawing.Color.Transparent
-        Me.Fea_unlock_amiibo.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_unloclallamiibo
-        Me.Fea_unlock_amiibo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Fea_unlock_amiibo.Controls.Add(Me.valu_unlock_amiibo)
-        Me.Fea_unlock_amiibo.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_unlock_amiibo.Location = New System.Drawing.Point(340, 135)
-        Me.Fea_unlock_amiibo.Name = "Fea_unlock_amiibo"
-        Me.Fea_unlock_amiibo.Size = New System.Drawing.Size(150, 150)
-        Me.Fea_unlock_amiibo.TabIndex = 17
+        Me.Title_horsename.ForeColor = System.Drawing.Color.White
+        Me.Title_horsename.Location = New System.Drawing.Point(0, 0)
+        Me.Title_horsename.Name = "Title_horsename"
+        Me.Title_horsename.Size = New System.Drawing.Size(230, 18)
+        Me.Title_horsename.TabIndex = 0
+        Me.Title_horsename.Text = "Horse name"
+        Me.Title_horsename.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'valu_unlock_amiibo
+        'PictureBox1
         '
-        Me.valu_unlock_amiibo.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.valu_unlock_amiibo.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_unlock_amiibo.Cursor = System.Windows.Forms.Cursors.Default
-        Me.valu_unlock_amiibo.Hexadecimal = True
-        Me.valu_unlock_amiibo.Location = New System.Drawing.Point(3, 131)
-        Me.valu_unlock_amiibo.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
-        Me.valu_unlock_amiibo.Name = "valu_unlock_amiibo"
-        Me.valu_unlock_amiibo.Size = New System.Drawing.Size(77, 16)
-        Me.valu_unlock_amiibo.TabIndex = 2
-        Me.valu_unlock_amiibo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_unlock_amiibo.Visible = False
-        '
-        'Fea_unlock_sprinkles
-        '
-        Me.Fea_unlock_sprinkles.BackColor = System.Drawing.Color.Transparent
-        Me.Fea_unlock_sprinkles.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_unlocksprinkles
-        Me.Fea_unlock_sprinkles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Fea_unlock_sprinkles.Controls.Add(Me.valu_unlock_sprinkles)
-        Me.Fea_unlock_sprinkles.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_unlock_sprinkles.Location = New System.Drawing.Point(524, 135)
-        Me.Fea_unlock_sprinkles.Name = "Fea_unlock_sprinkles"
-        Me.Fea_unlock_sprinkles.Size = New System.Drawing.Size(150, 150)
-        Me.Fea_unlock_sprinkles.TabIndex = 18
-        '
-        'valu_unlock_sprinkles
-        '
-        Me.valu_unlock_sprinkles.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.valu_unlock_sprinkles.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_unlock_sprinkles.Cursor = System.Windows.Forms.Cursors.Default
-        Me.valu_unlock_sprinkles.Hexadecimal = True
-        Me.valu_unlock_sprinkles.Location = New System.Drawing.Point(3, 131)
-        Me.valu_unlock_sprinkles.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
-        Me.valu_unlock_sprinkles.Name = "valu_unlock_sprinkles"
-        Me.valu_unlock_sprinkles.Size = New System.Drawing.Size(77, 16)
-        Me.valu_unlock_sprinkles.TabIndex = 2
-        Me.valu_unlock_sprinkles.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.valu_unlock_sprinkles.Visible = False
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox1.Image = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.icon_extract
+        Me.PictureBox1.Location = New System.Drawing.Point(21, 261)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(50, 41)
+        Me.PictureBox1.TabIndex = 21
+        Me.PictureBox1.TabStop = False
         '
         'Panel_description
         '
@@ -225,10 +181,10 @@ Partial Class MSE_unlockable
         Me.Panel_description.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_description
         Me.Panel_description.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Panel_description.Controls.Add(Me.Text_description)
-        Me.Panel_description.Location = New System.Drawing.Point(0, 332)
+        Me.Panel_description.Location = New System.Drawing.Point(0, 308)
         Me.Panel_description.Name = "Panel_description"
         Me.Panel_description.Size = New System.Drawing.Size(830, 40)
-        Me.Panel_description.TabIndex = 19
+        Me.Panel_description.TabIndex = 29
         Me.Panel_description.Visible = False
         '
         'Text_description
@@ -242,25 +198,24 @@ Partial Class MSE_unlockable
         Me.Text_description.Text = "Miitopia Save Editor"
         Me.Text_description.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'MSE_unlockable
+        'MSE_horse
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_yellow
-        Me.ClientSize = New System.Drawing.Size(830, 373)
+        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_pink
+        Me.ClientSize = New System.Drawing.Size(830, 349)
         Me.Controls.Add(Me.Panel_description)
-        Me.Controls.Add(Me.Fea_unlock_sprinkles)
-        Me.Controls.Add(Me.Fea_unlock_amiibo)
-        Me.Controls.Add(Me.Fea_unlock_classes)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Icon_menu)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.MSE_header)
         Me.Controls.Add(Me.MSE_logo)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "MSE_unlockable"
+        Me.Name = "MSE_horse"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "MSE_unlockable"
+        Me.Text = "MSE_horse"
         CType(Me.Icon_menu, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.MSE_header.ResumeLayout(False)
@@ -268,12 +223,9 @@ Partial Class MSE_unlockable
         CType(Me.Icon_minimize, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_close, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Fea_unlock_classes.ResumeLayout(False)
-        CType(Me.valu_unlock_classes, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Fea_unlock_amiibo.ResumeLayout(False)
-        CType(Me.valu_unlock_amiibo, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Fea_unlock_sprinkles.ResumeLayout(False)
-        CType(Me.valu_unlock_sprinkles, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_description.ResumeLayout(False)
         Me.ResumeLayout(False)
 
@@ -287,12 +239,10 @@ Partial Class MSE_unlockable
     Friend WithEvents Icon_minimize As PictureBox
     Friend WithEvents Icon_close As PictureBox
     Friend WithEvents MSE_logo As PictureBox
-    Friend WithEvents Fea_unlock_classes As Panel
-    Friend WithEvents valu_unlock_classes As NumericUpDown
-    Friend WithEvents Fea_unlock_amiibo As Panel
-    Friend WithEvents valu_unlock_amiibo As NumericUpDown
-    Friend WithEvents Fea_unlock_sprinkles As Panel
-    Friend WithEvents valu_unlock_sprinkles As NumericUpDown
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Text_horsename As TextBox
+    Friend WithEvents Title_horsename As Label
+    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Panel_description As Panel
     Friend WithEvents Text_description As Label
 End Class

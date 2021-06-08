@@ -44,6 +44,8 @@ Partial Class MSE_hub
         Me.valu_checkMSEupdate = New System.Windows.Forms.NumericUpDown()
         Me.Menu_party = New System.Windows.Forms.Panel()
         Me.Menu_text_party = New System.Windows.Forms.Label()
+        Me.Menu_horse = New System.Windows.Forms.Panel()
+        Me.Menu_text_horse = New System.Windows.Forms.Label()
         Me.MSE_header.SuspendLayout()
         CType(Me.MSE_title, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_minimize, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -57,6 +59,7 @@ Partial Class MSE_hub
         CType(Me.MSE_logo_update, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.valu_checkMSEupdate, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Menu_party.SuspendLayout()
+        Me.Menu_horse.SuspendLayout()
         Me.SuspendLayout()
         '
         'MSE_header
@@ -118,7 +121,7 @@ Partial Class MSE_hub
         Me.Menu_inventory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Menu_inventory.Controls.Add(Me.Menu_text_inventory)
         Me.Menu_inventory.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Menu_inventory.Location = New System.Drawing.Point(28, 146)
+        Me.Menu_inventory.Location = New System.Drawing.Point(28, 134)
         Me.Menu_inventory.Name = "Menu_inventory"
         Me.Menu_inventory.Size = New System.Drawing.Size(160, 120)
         Me.Menu_inventory.TabIndex = 2
@@ -141,7 +144,7 @@ Partial Class MSE_hub
         Me.Panel_description.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_description
         Me.Panel_description.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Panel_description.Controls.Add(Me.Text_description)
-        Me.Panel_description.Location = New System.Drawing.Point(0, 342)
+        Me.Panel_description.Location = New System.Drawing.Point(0, 397)
         Me.Panel_description.Name = "Panel_description"
         Me.Panel_description.Size = New System.Drawing.Size(830, 40)
         Me.Panel_description.TabIndex = 3
@@ -161,7 +164,7 @@ Partial Class MSE_hub
         'MSE_version
         '
         Me.MSE_version.BackColor = System.Drawing.Color.Transparent
-        Me.MSE_version.Location = New System.Drawing.Point(730, 360)
+        Me.MSE_version.Location = New System.Drawing.Point(730, 415)
         Me.MSE_version.Name = "MSE_version"
         Me.MSE_version.Size = New System.Drawing.Size(100, 23)
         Me.MSE_version.TabIndex = 4
@@ -207,7 +210,7 @@ Partial Class MSE_hub
         Me.Menu_unlockable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Menu_unlockable.Controls.Add(Me.Menu_text_unlockable)
         Me.Menu_unlockable.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Menu_unlockable.Location = New System.Drawing.Point(233, 146)
+        Me.Menu_unlockable.Location = New System.Drawing.Point(233, 134)
         Me.Menu_unlockable.Name = "Menu_unlockable"
         Me.Menu_unlockable.Size = New System.Drawing.Size(160, 120)
         Me.Menu_unlockable.TabIndex = 7
@@ -232,7 +235,7 @@ Partial Class MSE_hub
         Me.Menu_success.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Menu_success.Controls.Add(Me.Menu_text_success)
         Me.Menu_success.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Menu_success.Location = New System.Drawing.Point(438, 146)
+        Me.Menu_success.Location = New System.Drawing.Point(438, 134)
         Me.Menu_success.Name = "Menu_success"
         Me.Menu_success.Size = New System.Drawing.Size(160, 120)
         Me.Menu_success.TabIndex = 8
@@ -277,7 +280,7 @@ Partial Class MSE_hub
         Me.Menu_party.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Menu_party.Controls.Add(Me.Menu_text_party)
         Me.Menu_party.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Menu_party.Location = New System.Drawing.Point(643, 146)
+        Me.Menu_party.Location = New System.Drawing.Point(643, 134)
         Me.Menu_party.Name = "Menu_party"
         Me.Menu_party.Size = New System.Drawing.Size(160, 120)
         Me.Menu_party.TabIndex = 11
@@ -295,12 +298,38 @@ Partial Class MSE_hub
         Me.Menu_text_party.Text = "Party"
         Me.Menu_text_party.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Menu_horse
+        '
+        Me.Menu_horse.BackColor = System.Drawing.Color.Transparent
+        Me.Menu_horse.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.menu_horse_off
+        Me.Menu_horse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Menu_horse.Controls.Add(Me.Menu_text_horse)
+        Me.Menu_horse.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Menu_horse.Location = New System.Drawing.Point(28, 270)
+        Me.Menu_horse.Name = "Menu_horse"
+        Me.Menu_horse.Size = New System.Drawing.Size(160, 120)
+        Me.Menu_horse.TabIndex = 12
+        '
+        'Menu_text_horse
+        '
+        Me.Menu_text_horse.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Menu_text_horse.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Menu_text_horse.ForeColor = System.Drawing.Color.White
+        Me.Menu_text_horse.Location = New System.Drawing.Point(0, 0)
+        Me.Menu_text_horse.Name = "Menu_text_horse"
+        Me.Menu_text_horse.Size = New System.Drawing.Size(160, 120)
+        Me.Menu_text_horse.TabIndex = 0
+        Me.Menu_text_horse.Text = "Horse"
+        Me.Menu_text_horse.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'MSE_hub
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_green
-        Me.ClientSize = New System.Drawing.Size(830, 383)
+        Me.ClientSize = New System.Drawing.Size(830, 438)
+        Me.Controls.Add(Me.Menu_horse)
+        Me.Controls.Add(Me.Panel_description)
         Me.Controls.Add(Me.Menu_party)
         Me.Controls.Add(Me.valu_checkMSEupdate)
         Me.Controls.Add(Me.MSE_logo_update)
@@ -312,7 +341,6 @@ Partial Class MSE_hub
         Me.Controls.Add(Me.Menu_inventory)
         Me.Controls.Add(Me.MSE_header)
         Me.Controls.Add(Me.MSE_logo)
-        Me.Controls.Add(Me.Panel_description)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "MSE_hub"
@@ -331,6 +359,7 @@ Partial Class MSE_hub
         CType(Me.MSE_logo_update, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.valu_checkMSEupdate, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Menu_party.ResumeLayout(False)
+        Me.Menu_horse.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -357,4 +386,6 @@ Partial Class MSE_hub
     Friend WithEvents valu_checkMSEupdate As NumericUpDown
     Friend WithEvents Menu_party As Panel
     Friend WithEvents Menu_text_party As Label
+    Friend WithEvents Menu_horse As Panel
+    Friend WithEvents Menu_text_horse As Label
 End Class

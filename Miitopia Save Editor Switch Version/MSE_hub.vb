@@ -67,10 +67,13 @@ Public Class MSE_hub
 
     Private Sub Menu_text_inventory_MouseLeave(sender As Object, e As EventArgs) Handles Menu_text_inventory.MouseLeave
         Menu_inventory.BackgroundImage = My.Resources.menu_inventory_off
+        Panel_description.Visible = False
     End Sub
 
     Private Sub Menu_text_inventory_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_inventory.MouseMove
         Menu_inventory.BackgroundImage = My.Resources.menu_inventory_on
+        Text_description.Text = "Edit amount of tickets, golds, HP bananas, MP candies"
+        Panel_description.Visible = True
     End Sub
 
     Private Sub Menu_text_unlockable_Click(sender As Object, e As EventArgs) Handles Menu_text_unlockable.Click
@@ -80,11 +83,31 @@ Public Class MSE_hub
 
     Private Sub Menu_text_unlockable_MouseLeave(sender As Object, e As EventArgs) Handles Menu_text_unlockable.MouseLeave
         Menu_unlockable.BackgroundImage = My.Resources.menu_unlockable_off
+        Panel_description.Visible = False
     End Sub
 
     Private Sub Menu_text_unlockable_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_unlockable.MouseMove
         Menu_unlockable.BackgroundImage = My.Resources.menu_unlockable_on
+        Text_description.Text = "Unlock sprinkles, classes, amiibo outfits"
+        Panel_description.Visible = True
     End Sub
+
+    Private Sub Menu_text_horse_Click(sender As Object, e As EventArgs) Handles Menu_text_horse.Click
+        MSE_horse.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Menu_text_horse_MouseLeave(sender As Object, e As EventArgs) Handles Menu_text_horse.MouseLeave
+        Menu_horse.BackgroundImage = My.Resources.menu_horse_off
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Menu_text_horse_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_horse.MouseMove
+        Menu_horse.BackgroundImage = My.Resources.menu_horse_on
+        Text_description.Text = "Edit horse name, gender, extract and import horse"
+        Panel_description.Visible = True
+    End Sub
+
 
     Private Sub Menu_text_success_Click(sender As Object, e As EventArgs) Handles Menu_text_success.Click
         MSE_success.Show()
@@ -97,6 +120,19 @@ Public Class MSE_hub
 
     Private Sub Menu_text_success_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_success.MouseMove
         Menu_success.BackgroundImage = My.Resources.menu_success_on
+    End Sub
+
+    Private Sub Menu_text_party_Click(sender As Object, e As EventArgs) Handles Menu_text_party.Click
+        MSE_party.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Menu_text_party_MouseLeave(sender As Object, e As EventArgs) Handles Menu_text_party.MouseLeave
+        Menu_party.BackgroundImage = My.Resources.menu_party_off
+    End Sub
+
+    Private Sub Menu_text_party_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_party.MouseMove
+        Menu_party.BackgroundImage = My.Resources.menu_party_on
     End Sub
 
     'end menu

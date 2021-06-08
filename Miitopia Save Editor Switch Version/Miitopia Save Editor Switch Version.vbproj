@@ -86,6 +86,12 @@
     <Compile Include="MSE_dialog.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MSE_horse.Designer.vb">
+      <DependentUpon>MSE_horse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MSE_horse.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MSE_hub.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,12 @@
       <DependentUpon>MSE_loading.vb</DependentUpon>
     </Compile>
     <Compile Include="MSE_loading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MSE_party.Designer.vb">
+      <DependentUpon>MSE_party.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MSE_party.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MSE_success.Designer.vb">
@@ -138,6 +150,9 @@
     <EmbeddedResource Include="MSE_dialog.resx">
       <DependentUpon>MSE_dialog.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MSE_horse.resx">
+      <DependentUpon>MSE_horse.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MSE_hub.resx">
       <DependentUpon>MSE_hub.vb</DependentUpon>
     </EmbeddedResource>
@@ -146,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MSE_loading.resx">
       <DependentUpon>MSE_loading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MSE_party.resx">
+      <DependentUpon>MSE_party.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MSE_success.resx">
       <DependentUpon>MSE_success.vb</DependentUpon>
@@ -174,6 +192,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\icon_extract.png" />
+    <None Include="Resources\bg_horsename.png" />
+    <None Include="Resources\icon_dragon_on1.gif" />
+    <None Include="Resources\bg_pink.png" />
+    <None Include="Resources\icon_overworld.png" />
+    <None Include="Resources\icon_level.png" />
+    <None Include="Resources\icon_inn.png" />
+    <None Include="Resources\menu_horse_on.png" />
+    <None Include="Resources\menu_horse_off.png" />
+    <None Include="Resources\icon_dragon_off.png" />
+    <None Include="Resources\icon_warning.png" />
+    <None Include="Resources\bg_yellow.png" />
+    <None Include="Resources\bg_violet.png" />
+    <None Include="Resources\bg_red.png" />
+    <None Include="Resources\bg_blue.png" />
     <None Include="Resources\menu_party_on.png" />
     <None Include="Resources\menu_party_off.png" />
     <None Include="Resources\bg_rescued.png" />
