@@ -31,9 +31,17 @@ Partial Class MSE_success
         Me.Icon_minimize = New System.Windows.Forms.PictureBox()
         Me.Icon_close = New System.Windows.Forms.PictureBox()
         Me.MSE_logo = New System.Windows.Forms.PictureBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.valu_gametickets = New System.Windows.Forms.NumericUpDown()
-        Me.Text_rescued = New System.Windows.Forms.Label()
+        Me.Fea_miirescued = New System.Windows.Forms.Panel()
+        Me.valu_miirescued = New System.Windows.Forms.NumericUpDown()
+        Me.Text_miirescued = New System.Windows.Forms.Label()
+        Me.Fea_HPbananaseaten = New System.Windows.Forms.Panel()
+        Me.valu_HPbananaseaten = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_MPcandieseaten = New System.Windows.Forms.Panel()
+        Me.valu_MPcandieseaten = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_chestsopened = New System.Windows.Forms.Panel()
+        Me.valu_chestsopened = New System.Windows.Forms.NumericUpDown()
+        Me.Fea_questscleared = New System.Windows.Forms.Panel()
+        Me.valu_questscleared = New System.Windows.Forms.NumericUpDown()
         CType(Me.Icon_menu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         Me.MSE_header.SuspendLayout()
@@ -41,8 +49,16 @@ Partial Class MSE_success
         CType(Me.Icon_minimize, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_close, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel1.SuspendLayout()
-        CType(Me.valu_gametickets, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_miirescued.SuspendLayout()
+        CType(Me.valu_miirescued, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_HPbananaseaten.SuspendLayout()
+        CType(Me.valu_HPbananaseaten, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_MPcandieseaten.SuspendLayout()
+        CType(Me.valu_MPcandieseaten, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_chestsopened.SuspendLayout()
+        CType(Me.valu_chestsopened, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Fea_questscleared.SuspendLayout()
+        CType(Me.valu_questscleared, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Icon_menu
@@ -131,45 +147,137 @@ Partial Class MSE_success
         Me.MSE_logo.TabIndex = 16
         Me.MSE_logo.TabStop = False
         '
-        'Panel1
+        'Fea_miirescued
         '
-        Me.Panel1.BackColor = System.Drawing.Color.Transparent
-        Me.Panel1.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_rescued
-        Me.Panel1.Controls.Add(Me.valu_gametickets)
-        Me.Panel1.Controls.Add(Me.Text_rescued)
-        Me.Panel1.Location = New System.Drawing.Point(650, 202)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(180, 36)
-        Me.Panel1.TabIndex = 20
+        Me.Fea_miirescued.BackColor = System.Drawing.Color.Transparent
+        Me.Fea_miirescued.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_rescued
+        Me.Fea_miirescued.Controls.Add(Me.valu_miirescued)
+        Me.Fea_miirescued.Controls.Add(Me.Text_miirescued)
+        Me.Fea_miirescued.Location = New System.Drawing.Point(649, 333)
+        Me.Fea_miirescued.Name = "Fea_miirescued"
+        Me.Fea_miirescued.Size = New System.Drawing.Size(180, 36)
+        Me.Fea_miirescued.TabIndex = 20
         '
-        'valu_gametickets
+        'valu_miirescued
         '
-        Me.valu_gametickets.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_gametickets.Cursor = System.Windows.Forms.Cursors.Default
-        Me.valu_gametickets.Location = New System.Drawing.Point(91, 8)
-        Me.valu_gametickets.Maximum = New Decimal(New Integer() {9999, 0, 0, 0})
-        Me.valu_gametickets.Name = "valu_gametickets"
-        Me.valu_gametickets.Size = New System.Drawing.Size(77, 16)
-        Me.valu_gametickets.TabIndex = 22
-        Me.valu_gametickets.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_miirescued.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_miirescued.Cursor = System.Windows.Forms.Cursors.Default
+        Me.valu_miirescued.Location = New System.Drawing.Point(91, 8)
+        Me.valu_miirescued.Maximum = New Decimal(New Integer() {9999, 0, 0, 0})
+        Me.valu_miirescued.Name = "valu_miirescued"
+        Me.valu_miirescued.Size = New System.Drawing.Size(77, 16)
+        Me.valu_miirescued.TabIndex = 22
+        Me.valu_miirescued.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Text_rescued
+        'Text_miirescued
         '
-        Me.Text_rescued.ForeColor = System.Drawing.Color.White
-        Me.Text_rescued.Location = New System.Drawing.Point(15, 5)
-        Me.Text_rescued.Name = "Text_rescued"
-        Me.Text_rescued.Size = New System.Drawing.Size(74, 23)
-        Me.Text_rescued.TabIndex = 21
-        Me.Text_rescued.Text = "Rescued : "
-        Me.Text_rescued.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Text_miirescued.ForeColor = System.Drawing.Color.White
+        Me.Text_miirescued.Location = New System.Drawing.Point(15, 5)
+        Me.Text_miirescued.Name = "Text_miirescued"
+        Me.Text_miirescued.Size = New System.Drawing.Size(74, 23)
+        Me.Text_miirescued.TabIndex = 21
+        Me.Text_miirescued.Text = "Rescued : "
+        Me.Text_miirescued.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Fea_HPbananaseaten
+        '
+        Me.Fea_HPbananaseaten.BackColor = System.Drawing.Color.Transparent
+        Me.Fea_HPbananaseaten.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_hpbananaeat
+        Me.Fea_HPbananaseaten.Controls.Add(Me.valu_HPbananaseaten)
+        Me.Fea_HPbananaseaten.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_HPbananaseaten.Location = New System.Drawing.Point(91, 136)
+        Me.Fea_HPbananaseaten.Name = "Fea_HPbananaseaten"
+        Me.Fea_HPbananaseaten.Size = New System.Drawing.Size(120, 96)
+        Me.Fea_HPbananaseaten.TabIndex = 21
+        '
+        'valu_HPbananaseaten
+        '
+        Me.valu_HPbananaseaten.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_HPbananaseaten.Cursor = System.Windows.Forms.Cursors.Default
+        Me.valu_HPbananaseaten.Location = New System.Drawing.Point(33, 6)
+        Me.valu_HPbananaseaten.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_HPbananaseaten.Name = "valu_HPbananaseaten"
+        Me.valu_HPbananaseaten.Size = New System.Drawing.Size(77, 16)
+        Me.valu_HPbananaseaten.TabIndex = 1
+        Me.valu_HPbananaseaten.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_MPcandieseaten
+        '
+        Me.Fea_MPcandieseaten.BackColor = System.Drawing.Color.Transparent
+        Me.Fea_MPcandieseaten.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_mpcandyeat
+        Me.Fea_MPcandieseaten.Controls.Add(Me.valu_MPcandieseaten)
+        Me.Fea_MPcandieseaten.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_MPcandieseaten.Location = New System.Drawing.Point(267, 136)
+        Me.Fea_MPcandieseaten.Name = "Fea_MPcandieseaten"
+        Me.Fea_MPcandieseaten.Size = New System.Drawing.Size(120, 96)
+        Me.Fea_MPcandieseaten.TabIndex = 22
+        '
+        'valu_MPcandieseaten
+        '
+        Me.valu_MPcandieseaten.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_MPcandieseaten.Cursor = System.Windows.Forms.Cursors.Default
+        Me.valu_MPcandieseaten.Location = New System.Drawing.Point(33, 6)
+        Me.valu_MPcandieseaten.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_MPcandieseaten.Name = "valu_MPcandieseaten"
+        Me.valu_MPcandieseaten.Size = New System.Drawing.Size(77, 16)
+        Me.valu_MPcandieseaten.TabIndex = 1
+        Me.valu_MPcandieseaten.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_chestsopened
+        '
+        Me.Fea_chestsopened.BackColor = System.Drawing.Color.Transparent
+        Me.Fea_chestsopened.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_chestsopen
+        Me.Fea_chestsopened.Controls.Add(Me.valu_chestsopened)
+        Me.Fea_chestsopened.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_chestsopened.Location = New System.Drawing.Point(443, 136)
+        Me.Fea_chestsopened.Name = "Fea_chestsopened"
+        Me.Fea_chestsopened.Size = New System.Drawing.Size(120, 96)
+        Me.Fea_chestsopened.TabIndex = 23
+        '
+        'valu_chestsopened
+        '
+        Me.valu_chestsopened.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_chestsopened.Cursor = System.Windows.Forms.Cursors.Default
+        Me.valu_chestsopened.Location = New System.Drawing.Point(33, 6)
+        Me.valu_chestsopened.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_chestsopened.Name = "valu_chestsopened"
+        Me.valu_chestsopened.Size = New System.Drawing.Size(77, 16)
+        Me.valu_chestsopened.TabIndex = 1
+        Me.valu_chestsopened.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Fea_questscleared
+        '
+        Me.Fea_questscleared.BackColor = System.Drawing.Color.Transparent
+        Me.Fea_questscleared.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_questscleared
+        Me.Fea_questscleared.Controls.Add(Me.valu_questscleared)
+        Me.Fea_questscleared.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_questscleared.Location = New System.Drawing.Point(619, 136)
+        Me.Fea_questscleared.Name = "Fea_questscleared"
+        Me.Fea_questscleared.Size = New System.Drawing.Size(120, 96)
+        Me.Fea_questscleared.TabIndex = 24
+        '
+        'valu_questscleared
+        '
+        Me.valu_questscleared.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_questscleared.Cursor = System.Windows.Forms.Cursors.Default
+        Me.valu_questscleared.Location = New System.Drawing.Point(33, 6)
+        Me.valu_questscleared.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_questscleared.Name = "valu_questscleared"
+        Me.valu_questscleared.Size = New System.Drawing.Size(77, 16)
+        Me.valu_questscleared.TabIndex = 1
+        Me.valu_questscleared.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'MSE_success
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_violet
-        Me.ClientSize = New System.Drawing.Size(830, 250)
-        Me.Controls.Add(Me.Panel1)
+        Me.ClientSize = New System.Drawing.Size(830, 369)
+        Me.Controls.Add(Me.Fea_questscleared)
+        Me.Controls.Add(Me.Fea_chestsopened)
+        Me.Controls.Add(Me.Fea_MPcandieseaten)
+        Me.Controls.Add(Me.Fea_HPbananaseaten)
+        Me.Controls.Add(Me.Fea_miirescued)
         Me.Controls.Add(Me.Icon_menu)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.MSE_header)
@@ -186,8 +294,16 @@ Partial Class MSE_success
         CType(Me.Icon_minimize, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_close, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel1.ResumeLayout(False)
-        CType(Me.valu_gametickets, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_miirescued.ResumeLayout(False)
+        CType(Me.valu_miirescued, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_HPbananaseaten.ResumeLayout(False)
+        CType(Me.valu_HPbananaseaten, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_MPcandieseaten.ResumeLayout(False)
+        CType(Me.valu_MPcandieseaten, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_chestsopened.ResumeLayout(False)
+        CType(Me.valu_chestsopened, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Fea_questscleared.ResumeLayout(False)
+        CType(Me.valu_questscleared, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -200,7 +316,15 @@ Partial Class MSE_success
     Friend WithEvents Icon_minimize As PictureBox
     Friend WithEvents Icon_close As PictureBox
     Friend WithEvents MSE_logo As PictureBox
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Text_rescued As Label
-    Friend WithEvents valu_gametickets As NumericUpDown
+    Friend WithEvents Fea_miirescued As Panel
+    Friend WithEvents Text_miirescued As Label
+    Friend WithEvents valu_miirescued As NumericUpDown
+    Friend WithEvents Fea_HPbananaseaten As Panel
+    Friend WithEvents valu_HPbananaseaten As NumericUpDown
+    Friend WithEvents Fea_MPcandieseaten As Panel
+    Friend WithEvents valu_MPcandieseaten As NumericUpDown
+    Friend WithEvents Fea_chestsopened As Panel
+    Friend WithEvents valu_chestsopened As NumericUpDown
+    Friend WithEvents Fea_questscleared As Panel
+    Friend WithEvents valu_questscleared As NumericUpDown
 End Class

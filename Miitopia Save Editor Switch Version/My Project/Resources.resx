@@ -118,8 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bg_unloclallamiibo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_unloclallamiibo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MSE_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MSE_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSE_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSE_title.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu_unlockable_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_unlockable_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,14 +142,17 @@
   <data name="icon_outingticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_outingticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="menu_horse_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_horse_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="menu_unlockable_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_unlockable_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icon_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="menu_party_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_party_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_playticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_playticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_rescued" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_rescued.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,14 +160,14 @@
   <data name="bg_unlocksprinkles" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_unlocksprinkles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MSE_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MSE_title.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_playticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_playticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_gold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="menu_inventory_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu_inventory_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_questscleared" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_questscleared.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu_inventory_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_inventory_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,14 +178,23 @@
   <data name="menu_party_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_party_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg_horse_girl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_horse_girl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon_overworld" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_overworld.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_unlockallclasses" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_unlockallclasses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg_horse_boy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_horse_boy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg_outingsticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_outingsticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_chestsopen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_chestsopen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,14 +211,11 @@
   <data name="button_save" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button_save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_unloclallamiibo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_unloclallamiibo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_extract" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_extract.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_close_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_close_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="button_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu_horse_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_horse_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,6 +235,9 @@
   <data name="icon_dragon_on1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_dragon_on1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="menu_inventory_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_inventory_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -232,11 +250,14 @@
   <data name="bg_pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="menu_horse_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu_horse_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_hpbananaeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_hpbananaeat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_description" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_description.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_mpcandyeat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_mpcandyeat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,8 +265,8 @@
   <data name="bg_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="button_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_inn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_inn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,7 +277,7 @@
   <data name="bg_violet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_violet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_extract" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_extract.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_unlockinnoptions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_unlockinnoptions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

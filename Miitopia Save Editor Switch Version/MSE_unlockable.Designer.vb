@@ -39,6 +39,8 @@ Partial Class MSE_unlockable
         Me.valu_unlock_sprinkles = New System.Windows.Forms.NumericUpDown()
         Me.Panel_description = New System.Windows.Forms.Panel()
         Me.Text_description = New System.Windows.Forms.Label()
+        Me.Fea_unlock_innoptions = New System.Windows.Forms.Panel()
+        Me.valu_unlock_innoptions = New System.Windows.Forms.NumericUpDown()
         CType(Me.Icon_menu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         Me.MSE_header.SuspendLayout()
@@ -53,6 +55,8 @@ Partial Class MSE_unlockable
         Me.Fea_unlock_sprinkles.SuspendLayout()
         CType(Me.valu_unlock_sprinkles, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_description.SuspendLayout()
+        Me.Fea_unlock_innoptions.SuspendLayout()
+        CType(Me.valu_unlock_innoptions, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Icon_menu
@@ -148,7 +152,7 @@ Partial Class MSE_unlockable
         Me.Fea_unlock_classes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Fea_unlock_classes.Controls.Add(Me.valu_unlock_classes)
         Me.Fea_unlock_classes.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_unlock_classes.Location = New System.Drawing.Point(156, 135)
+        Me.Fea_unlock_classes.Location = New System.Drawing.Point(64, 135)
         Me.Fea_unlock_classes.Name = "Fea_unlock_classes"
         Me.Fea_unlock_classes.Size = New System.Drawing.Size(150, 150)
         Me.Fea_unlock_classes.TabIndex = 16
@@ -174,7 +178,7 @@ Partial Class MSE_unlockable
         Me.Fea_unlock_amiibo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Fea_unlock_amiibo.Controls.Add(Me.valu_unlock_amiibo)
         Me.Fea_unlock_amiibo.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_unlock_amiibo.Location = New System.Drawing.Point(340, 135)
+        Me.Fea_unlock_amiibo.Location = New System.Drawing.Point(248, 135)
         Me.Fea_unlock_amiibo.Name = "Fea_unlock_amiibo"
         Me.Fea_unlock_amiibo.Size = New System.Drawing.Size(150, 150)
         Me.Fea_unlock_amiibo.TabIndex = 17
@@ -200,7 +204,7 @@ Partial Class MSE_unlockable
         Me.Fea_unlock_sprinkles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Fea_unlock_sprinkles.Controls.Add(Me.valu_unlock_sprinkles)
         Me.Fea_unlock_sprinkles.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Fea_unlock_sprinkles.Location = New System.Drawing.Point(524, 135)
+        Me.Fea_unlock_sprinkles.Location = New System.Drawing.Point(432, 135)
         Me.Fea_unlock_sprinkles.Name = "Fea_unlock_sprinkles"
         Me.Fea_unlock_sprinkles.Size = New System.Drawing.Size(150, 150)
         Me.Fea_unlock_sprinkles.TabIndex = 18
@@ -242,12 +246,39 @@ Partial Class MSE_unlockable
         Me.Text_description.Text = "Miitopia Save Editor"
         Me.Text_description.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Fea_unlock_innoptions
+        '
+        Me.Fea_unlock_innoptions.BackColor = System.Drawing.Color.Transparent
+        Me.Fea_unlock_innoptions.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_unlockinnoptions
+        Me.Fea_unlock_innoptions.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Fea_unlock_innoptions.Controls.Add(Me.valu_unlock_innoptions)
+        Me.Fea_unlock_innoptions.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Fea_unlock_innoptions.Location = New System.Drawing.Point(616, 135)
+        Me.Fea_unlock_innoptions.Name = "Fea_unlock_innoptions"
+        Me.Fea_unlock_innoptions.Size = New System.Drawing.Size(150, 150)
+        Me.Fea_unlock_innoptions.TabIndex = 20
+        '
+        'valu_unlock_innoptions
+        '
+        Me.valu_unlock_innoptions.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.valu_unlock_innoptions.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_unlock_innoptions.Cursor = System.Windows.Forms.Cursors.Default
+        Me.valu_unlock_innoptions.Hexadecimal = True
+        Me.valu_unlock_innoptions.Location = New System.Drawing.Point(3, 131)
+        Me.valu_unlock_innoptions.Maximum = New Decimal(New Integer() {-1, 0, 0, 0})
+        Me.valu_unlock_innoptions.Name = "valu_unlock_innoptions"
+        Me.valu_unlock_innoptions.Size = New System.Drawing.Size(77, 16)
+        Me.valu_unlock_innoptions.TabIndex = 2
+        Me.valu_unlock_innoptions.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_unlock_innoptions.Visible = False
+        '
         'MSE_unlockable
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_yellow
         Me.ClientSize = New System.Drawing.Size(830, 373)
+        Me.Controls.Add(Me.Fea_unlock_innoptions)
         Me.Controls.Add(Me.Panel_description)
         Me.Controls.Add(Me.Fea_unlock_sprinkles)
         Me.Controls.Add(Me.Fea_unlock_amiibo)
@@ -275,6 +306,8 @@ Partial Class MSE_unlockable
         Me.Fea_unlock_sprinkles.ResumeLayout(False)
         CType(Me.valu_unlock_sprinkles, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_description.ResumeLayout(False)
+        Me.Fea_unlock_innoptions.ResumeLayout(False)
+        CType(Me.valu_unlock_innoptions, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -295,4 +328,6 @@ Partial Class MSE_unlockable
     Friend WithEvents valu_unlock_sprinkles As NumericUpDown
     Friend WithEvents Panel_description As Panel
     Friend WithEvents Text_description As Label
+    Friend WithEvents Fea_unlock_innoptions As Panel
+    Friend WithEvents valu_unlock_innoptions As NumericUpDown
 End Class

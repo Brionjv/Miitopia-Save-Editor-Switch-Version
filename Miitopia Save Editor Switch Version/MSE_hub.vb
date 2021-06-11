@@ -88,7 +88,7 @@ Public Class MSE_hub
 
     Private Sub Menu_text_unlockable_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_unlockable.MouseMove
         Menu_unlockable.BackgroundImage = My.Resources.menu_unlockable_on
-        Text_description.Text = "Unlock sprinkles, classes, amiibo outfits"
+        Text_description.Text = "Unlock sprinkles, classes, amiibo outfits, inn options"
         Panel_description.Visible = True
     End Sub
 
@@ -116,10 +116,13 @@ Public Class MSE_hub
 
     Private Sub Menu_text_success_MouseLeave(sender As Object, e As EventArgs) Handles Menu_text_success.MouseLeave
         Menu_success.BackgroundImage = My.Resources.menu_success_off
+        Panel_description.Visible = False
     End Sub
 
     Private Sub Menu_text_success_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_success.MouseMove
         Menu_success.BackgroundImage = My.Resources.menu_success_on
+        Text_description.Text = "Edit amount of chests opened, quests cleared, HP bananas and MP candies eaten"
+        Panel_description.Visible = True
     End Sub
 
     Private Sub Menu_text_party_Click(sender As Object, e As EventArgs) Handles Menu_text_party.Click
@@ -129,10 +132,13 @@ Public Class MSE_hub
 
     Private Sub Menu_text_party_MouseLeave(sender As Object, e As EventArgs) Handles Menu_text_party.MouseLeave
         Menu_party.BackgroundImage = My.Resources.menu_party_off
+        Panel_description.Visible = False
     End Sub
 
     Private Sub Menu_text_party_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_party.MouseMove
         Menu_party.BackgroundImage = My.Resources.menu_party_on
+        Text_description.Text = "Edit your party location and mount on the dragon"
+        Panel_description.Visible = True
     End Sub
 
     'end menu

@@ -192,6 +192,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\bg_unlockinnoptions.png" />
+    <None Include="Resources\bg_horse_girl.png" />
+    <None Include="Resources\bg_horse_boy.png" />
+    <None Include="Resources\bg_questscleared.png" />
+    <None Include="Resources\bg_mpcandyeat.png" />
+    <None Include="Resources\bg_hpbananaeat.png" />
+    <None Include="Resources\bg_chestsopen.png" />
     <None Include="Resources\icon_extract.png" />
     <None Include="Resources\bg_horsename.png" />
     <None Include="Resources\icon_dragon_on1.gif" />

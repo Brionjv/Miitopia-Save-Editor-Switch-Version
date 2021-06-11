@@ -280,6 +280,7 @@ Partial Class MSE_hub
         Me.Menu_party.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Menu_party.Controls.Add(Me.Menu_text_party)
         Me.Menu_party.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Menu_party.Enabled = False
         Me.Menu_party.Location = New System.Drawing.Point(643, 134)
         Me.Menu_party.Name = "Menu_party"
         Me.Menu_party.Size = New System.Drawing.Size(160, 120)
@@ -305,6 +306,7 @@ Partial Class MSE_hub
         Me.Menu_horse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Menu_horse.Controls.Add(Me.Menu_text_horse)
         Me.Menu_horse.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Menu_horse.Enabled = False
         Me.Menu_horse.Location = New System.Drawing.Point(28, 270)
         Me.Menu_horse.Name = "Menu_horse"
         Me.Menu_horse.Size = New System.Drawing.Size(160, 120)

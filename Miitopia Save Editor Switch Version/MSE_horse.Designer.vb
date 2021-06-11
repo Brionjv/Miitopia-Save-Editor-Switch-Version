@@ -37,6 +37,8 @@ Partial Class MSE_horse
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel_description = New System.Windows.Forms.Panel()
         Me.Text_description = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         CType(Me.Icon_menu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         Me.MSE_header.SuspendLayout()
@@ -47,6 +49,8 @@ Partial Class MSE_horse
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_description.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Icon_menu
@@ -141,7 +145,7 @@ Partial Class MSE_horse
         Me.Panel1.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_horsename
         Me.Panel1.Controls.Add(Me.Text_horsename)
         Me.Panel1.Controls.Add(Me.Title_horsename)
-        Me.Panel1.Location = New System.Drawing.Point(300, 120)
+        Me.Panel1.Location = New System.Drawing.Point(300, 118)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(230, 50)
         Me.Panel1.TabIndex = 20
@@ -198,12 +202,34 @@ Partial Class MSE_horse
         Me.Text_description.Text = "Miitopia Save Editor"
         Me.Text_description.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Image = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_horse_boy
+        Me.PictureBox2.Location = New System.Drawing.Point(208, 186)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox2.TabIndex = 30
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox3.Image = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_horse_girl
+        Me.PictureBox3.Location = New System.Drawing.Point(522, 186)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox3.TabIndex = 31
+        Me.PictureBox3.TabStop = False
+        '
         'MSE_horse
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_pink
         Me.ClientSize = New System.Drawing.Size(830, 349)
+        Me.Controls.Add(Me.PictureBox3)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Panel_description)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Panel1)
@@ -227,6 +253,8 @@ Partial Class MSE_horse
         Me.Panel1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_description.ResumeLayout(False)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -245,4 +273,6 @@ Partial Class MSE_horse
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Panel_description As Panel
     Friend WithEvents Text_description As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
 End Class
