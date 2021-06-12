@@ -159,11 +159,11 @@ Public Class MSE_unlockable
         Try
             Dim WriteUnlockable As New PackageIO.Writer(CStr(mainsav), PackageIO.Endian.Little)
             WriteUnlockable.Position = Unlock_amiibo
-            WriteUnlockable.WriteInt32(valu_unlock_amiibo.Value)
+            WriteUnlockable.WriteUInt32(valu_unlock_amiibo.Value)
             WriteUnlockable.Position = Unlock_classes
             WriteUnlockable.WriteUInt16(valu_unlock_classes.Value)
             WriteUnlockable.Position = Unlock_innpotions
-            WriteUnlockable.WriteInt32(valu_unlock_innoptions.Value)
+            WriteUnlockable.WriteUInt32(valu_unlock_innoptions.Value)
 
             Dim WriteBUnlockable As New System.IO.FileStream(CStr(mainsav), FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite)
             WriteBUnlockable.Position = Unlock_sprinkles

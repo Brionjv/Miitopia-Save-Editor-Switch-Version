@@ -63,7 +63,6 @@ Public Class MSE_horse
         Me.Close()
     End Sub
 
-
     'end base
 
 End Class
