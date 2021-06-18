@@ -201,7 +201,7 @@ Partial Class MSE_party
         'valu_world
         '
         Me.valu_world.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.valu_world.Location = New System.Drawing.Point(3, 16)
+        Me.valu_world.Location = New System.Drawing.Point(2, 23)
         Me.valu_world.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
         Me.valu_world.Name = "valu_world"
         Me.valu_world.Size = New System.Drawing.Size(36, 16)
