@@ -24,8 +24,8 @@ Partial Class MSE_dialog
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MSE_dialog))
         Me.MSE_dialog_panelbuttons = New System.Windows.Forms.TableLayoutPanel()
-        Me.OK_Button = New System.Windows.Forms.Button()
         Me.Cancel_Button = New System.Windows.Forms.Button()
+        Me.OK_Button = New System.Windows.Forms.Button()
         Me.text_dialog = New System.Windows.Forms.Label()
         Me.MSE_dialog_panelbuttons.SuspendLayout()
         Me.SuspendLayout()
@@ -47,21 +47,10 @@ Partial Class MSE_dialog
         Me.MSE_dialog_panelbuttons.TabIndex = 0
         Me.MSE_dialog_panelbuttons.Visible = False
         '
-        'OK_Button
-        '
-        Me.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.OK_Button.BackColor = System.Drawing.SystemColors.Control
-        Me.OK_Button.Location = New System.Drawing.Point(3, 3)
-        Me.OK_Button.Name = "OK_Button"
-        Me.OK_Button.Size = New System.Drawing.Size(67, 23)
-        Me.OK_Button.TabIndex = 0
-        Me.OK_Button.Text = "OK"
-        Me.OK_Button.UseVisualStyleBackColor = False
-        '
         'Cancel_Button
         '
         Me.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Cancel_Button.BackColor = System.Drawing.SystemColors.Control
+        Me.Cancel_Button.BackColor = System.Drawing.Color.White
         Me.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.Cancel_Button.Location = New System.Drawing.Point(76, 3)
         Me.Cancel_Button.Name = "Cancel_Button"
@@ -69,6 +58,17 @@ Partial Class MSE_dialog
         Me.Cancel_Button.TabIndex = 1
         Me.Cancel_Button.Text = "Cancel"
         Me.Cancel_Button.UseVisualStyleBackColor = False
+        '
+        'OK_Button
+        '
+        Me.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.OK_Button.BackColor = System.Drawing.Color.White
+        Me.OK_Button.Location = New System.Drawing.Point(3, 3)
+        Me.OK_Button.Name = "OK_Button"
+        Me.OK_Button.Size = New System.Drawing.Size(67, 23)
+        Me.OK_Button.TabIndex = 0
+        Me.OK_Button.Text = "OK"
+        Me.OK_Button.UseVisualStyleBackColor = False
         '
         'text_dialog
         '

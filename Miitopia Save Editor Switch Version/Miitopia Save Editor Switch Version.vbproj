@@ -192,6 +192,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\icon_import.png" />
     <None Include="Resources\bg_unlockinnoptions.png" />
     <None Include="Resources\bg_horse_girl.png" />
     <None Include="Resources\bg_horse_boy.png" />

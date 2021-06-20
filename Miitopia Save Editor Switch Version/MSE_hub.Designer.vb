@@ -168,7 +168,7 @@ Partial Class MSE_hub
         Me.MSE_version.Name = "MSE_version"
         Me.MSE_version.Size = New System.Drawing.Size(100, 23)
         Me.MSE_version.TabIndex = 4
-        Me.MSE_version.Text = "Version 1.3.0"
+        Me.MSE_version.Text = "Version 1.4.0"
         Me.MSE_version.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Panel2
@@ -305,7 +305,6 @@ Partial Class MSE_hub
         Me.Menu_horse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.Menu_horse.Controls.Add(Me.Menu_text_horse)
         Me.Menu_horse.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Menu_horse.Enabled = False
         Me.Menu_horse.Location = New System.Drawing.Point(28, 270)
         Me.Menu_horse.Name = "Menu_horse"
         Me.Menu_horse.Size = New System.Drawing.Size(160, 120)

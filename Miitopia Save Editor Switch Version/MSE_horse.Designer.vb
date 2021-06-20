@@ -34,11 +34,15 @@ Partial Class MSE_horse
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Text_horsename = New System.Windows.Forms.TextBox()
         Me.Title_horsename = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Icon_extract = New System.Windows.Forms.PictureBox()
         Me.Panel_description = New System.Windows.Forms.Panel()
         Me.Text_description = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.Icon_gender_boy = New System.Windows.Forms.PictureBox()
+        Me.Icon_gender_girl = New System.Windows.Forms.PictureBox()
+        Me.valu_gender = New System.Windows.Forms.NumericUpDown()
+        Me.Text_Ho_appareance = New System.Windows.Forms.TextBox()
+        Me.Icon_import = New System.Windows.Forms.PictureBox()
+        Me.Text_globalhorse = New System.Windows.Forms.TextBox()
         CType(Me.Icon_menu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         Me.MSE_header.SuspendLayout()
@@ -47,10 +51,12 @@ Partial Class MSE_horse
         CType(Me.Icon_close, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_extract, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel_description.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_gender_boy, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_gender_girl, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_gender, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_import, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Icon_menu
@@ -153,6 +159,7 @@ Partial Class MSE_horse
         'Text_horsename
         '
         Me.Text_horsename.Location = New System.Drawing.Point(35, 24)
+        Me.Text_horsename.MaxLength = 10
         Me.Text_horsename.Name = "Text_horsename"
         Me.Text_horsename.Size = New System.Drawing.Size(161, 20)
         Me.Text_horsename.TabIndex = 1
@@ -168,16 +175,16 @@ Partial Class MSE_horse
         Me.Title_horsename.Text = "Horse name"
         Me.Title_horsename.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'PictureBox1
+        'Icon_extract
         '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox1.Image = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.icon_extract
-        Me.PictureBox1.Location = New System.Drawing.Point(21, 261)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(50, 41)
-        Me.PictureBox1.TabIndex = 21
-        Me.PictureBox1.TabStop = False
+        Me.Icon_extract.BackColor = System.Drawing.Color.Transparent
+        Me.Icon_extract.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_extract.Image = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.icon_extract
+        Me.Icon_extract.Location = New System.Drawing.Point(22, 261)
+        Me.Icon_extract.Name = "Icon_extract"
+        Me.Icon_extract.Size = New System.Drawing.Size(50, 41)
+        Me.Icon_extract.TabIndex = 21
+        Me.Icon_extract.TabStop = False
         '
         'Panel_description
         '
@@ -202,25 +209,72 @@ Partial Class MSE_horse
         Me.Text_description.Text = "Miitopia Save Editor"
         Me.Text_description.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'PictureBox2
+        'Icon_gender_boy
         '
-        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Image = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_horse_boy
-        Me.PictureBox2.Location = New System.Drawing.Point(208, 186)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(100, 100)
-        Me.PictureBox2.TabIndex = 30
-        Me.PictureBox2.TabStop = False
+        Me.Icon_gender_boy.BackColor = System.Drawing.Color.Transparent
+        Me.Icon_gender_boy.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_gender_boy.Image = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_horse_boy
+        Me.Icon_gender_boy.Location = New System.Drawing.Point(208, 186)
+        Me.Icon_gender_boy.Name = "Icon_gender_boy"
+        Me.Icon_gender_boy.Size = New System.Drawing.Size(100, 100)
+        Me.Icon_gender_boy.TabIndex = 30
+        Me.Icon_gender_boy.TabStop = False
         '
-        'PictureBox3
+        'Icon_gender_girl
         '
-        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.Image = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_horse_girl
-        Me.PictureBox3.Location = New System.Drawing.Point(522, 186)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(100, 100)
-        Me.PictureBox3.TabIndex = 31
-        Me.PictureBox3.TabStop = False
+        Me.Icon_gender_girl.BackColor = System.Drawing.Color.Transparent
+        Me.Icon_gender_girl.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_gender_girl.Image = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_horse_girl
+        Me.Icon_gender_girl.Location = New System.Drawing.Point(522, 186)
+        Me.Icon_gender_girl.Name = "Icon_gender_girl"
+        Me.Icon_gender_girl.Size = New System.Drawing.Size(100, 100)
+        Me.Icon_gender_girl.TabIndex = 31
+        Me.Icon_gender_girl.TabStop = False
+        '
+        'valu_gender
+        '
+        Me.valu_gender.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_gender.Location = New System.Drawing.Point(387, 186)
+        Me.valu_gender.Maximum = New Decimal(New Integer() {255, 0, 0, 0})
+        Me.valu_gender.Name = "valu_gender"
+        Me.valu_gender.Size = New System.Drawing.Size(36, 16)
+        Me.valu_gender.TabIndex = 32
+        Me.valu_gender.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.valu_gender.Value = New Decimal(New Integer() {3, 0, 0, 0})
+        Me.valu_gender.Visible = False
+        '
+        'Text_Ho_appareance
+        '
+        Me.Text_Ho_appareance.Location = New System.Drawing.Point(21, 133)
+        Me.Text_Ho_appareance.MaxLength = 32767695
+        Me.Text_Ho_appareance.Multiline = True
+        Me.Text_Ho_appareance.Name = "Text_Ho_appareance"
+        Me.Text_Ho_appareance.Size = New System.Drawing.Size(181, 122)
+        Me.Text_Ho_appareance.TabIndex = 33
+        Me.Text_Ho_appareance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Text_Ho_appareance.Visible = False
+        '
+        'Icon_import
+        '
+        Me.Icon_import.BackColor = System.Drawing.Color.Transparent
+        Me.Icon_import.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Icon_import.Image = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.icon_import
+        Me.Icon_import.Location = New System.Drawing.Point(759, 261)
+        Me.Icon_import.Name = "Icon_import"
+        Me.Icon_import.Size = New System.Drawing.Size(50, 41)
+        Me.Icon_import.TabIndex = 34
+        Me.Icon_import.TabStop = False
+        '
+        'Text_globalhorse
+        '
+        Me.Text_globalhorse.Location = New System.Drawing.Point(628, 133)
+        Me.Text_globalhorse.MaxLength = 32767695
+        Me.Text_globalhorse.Multiline = True
+        Me.Text_globalhorse.Name = "Text_globalhorse"
+        Me.Text_globalhorse.Size = New System.Drawing.Size(181, 122)
+        Me.Text_globalhorse.TabIndex = 35
+        Me.Text_globalhorse.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Text_globalhorse.Visible = False
         '
         'MSE_horse
         '
@@ -228,10 +282,14 @@ Partial Class MSE_horse
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_pink
         Me.ClientSize = New System.Drawing.Size(830, 349)
-        Me.Controls.Add(Me.PictureBox3)
-        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.Text_globalhorse)
+        Me.Controls.Add(Me.Icon_import)
+        Me.Controls.Add(Me.Text_Ho_appareance)
+        Me.Controls.Add(Me.valu_gender)
+        Me.Controls.Add(Me.Icon_gender_girl)
+        Me.Controls.Add(Me.Icon_gender_boy)
         Me.Controls.Add(Me.Panel_description)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Icon_extract)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Icon_menu)
         Me.Controls.Add(Me.Panel2)
@@ -251,11 +309,14 @@ Partial Class MSE_horse
         CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_extract, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel_description.ResumeLayout(False)
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_gender_boy, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_gender_girl, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_gender, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_import, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -270,9 +331,13 @@ Partial Class MSE_horse
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Text_horsename As TextBox
     Friend WithEvents Title_horsename As Label
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Icon_extract As PictureBox
     Friend WithEvents Panel_description As Panel
     Friend WithEvents Text_description As Label
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Icon_gender_boy As PictureBox
+    Friend WithEvents Icon_gender_girl As PictureBox
+    Friend WithEvents valu_gender As NumericUpDown
+    Friend WithEvents Text_Ho_appareance As TextBox
+    Friend WithEvents Icon_import As PictureBox
+    Friend WithEvents Text_globalhorse As TextBox
 End Class
