@@ -87,6 +87,11 @@ Miitopia Save Editor Switch Version
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_orange">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_outingsticket">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -228,6 +233,16 @@ Miitopia Save Editor Switch Version
 </summary>
 </member>
 <member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.icon_warning">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.menu_grubs_off">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.menu_grubs_on">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>

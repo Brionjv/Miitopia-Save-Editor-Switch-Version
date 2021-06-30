@@ -9,7 +9,7 @@ Public Class MSE_horse
     Dim mainsav = MSE_hub.Text_filepath.Text
     Dim horsename = &H1376A8
     Dim gender = &H1376BE
-    Dim Ho_appareance = &H1377F0 '&he0
+    Dim Ho_appareance = &H1377F0 '&HE0
     Dim Horseappareance As String
 
     'base

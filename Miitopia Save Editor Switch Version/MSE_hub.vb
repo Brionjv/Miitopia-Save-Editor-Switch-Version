@@ -141,6 +141,22 @@ Public Class MSE_hub
         Panel_description.Visible = True
     End Sub
 
+    Private Sub Menu_text_grubs_Click(sender As Object, e As EventArgs) Handles Menu_text_grubs.Click
+        MSE_grubs.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Menu_text_grubs_MouseLeave(sender As Object, e As EventArgs) Handles Menu_text_grubs.MouseLeave
+        Menu_grubs.BackgroundImage = My.Resources.menu_grubs_off
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Menu_text_grubs_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_grubs.MouseMove
+        Menu_grubs.BackgroundImage = My.Resources.menu_grubs_on
+        Text_description.Text = "Edit all grubs"
+        Panel_description.Visible = True
+    End Sub
+
     'end menu
 
     'update

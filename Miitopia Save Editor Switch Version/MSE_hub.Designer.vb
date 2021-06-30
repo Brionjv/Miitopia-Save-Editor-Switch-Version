@@ -46,6 +46,8 @@ Partial Class MSE_hub
         Me.Menu_text_party = New System.Windows.Forms.Label()
         Me.Menu_horse = New System.Windows.Forms.Panel()
         Me.Menu_text_horse = New System.Windows.Forms.Label()
+        Me.Menu_grubs = New System.Windows.Forms.Panel()
+        Me.Menu_text_grubs = New System.Windows.Forms.Label()
         Me.MSE_header.SuspendLayout()
         CType(Me.MSE_title, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_minimize, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -60,6 +62,7 @@ Partial Class MSE_hub
         CType(Me.valu_checkMSEupdate, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Menu_party.SuspendLayout()
         Me.Menu_horse.SuspendLayout()
+        Me.Menu_grubs.SuspendLayout()
         Me.SuspendLayout()
         '
         'MSE_header
@@ -168,7 +171,7 @@ Partial Class MSE_hub
         Me.MSE_version.Name = "MSE_version"
         Me.MSE_version.Size = New System.Drawing.Size(100, 23)
         Me.MSE_version.TabIndex = 4
-        Me.MSE_version.Text = "Version 1.4.0"
+        Me.MSE_version.Text = "Version 1.5.0"
         Me.MSE_version.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Panel2
@@ -322,12 +325,37 @@ Partial Class MSE_hub
         Me.Menu_text_horse.Text = "Horse"
         Me.Menu_text_horse.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Menu_grubs
+        '
+        Me.Menu_grubs.BackColor = System.Drawing.Color.Transparent
+        Me.Menu_grubs.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.menu_grubs_off
+        Me.Menu_grubs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Menu_grubs.Controls.Add(Me.Menu_text_grubs)
+        Me.Menu_grubs.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Menu_grubs.Location = New System.Drawing.Point(233, 270)
+        Me.Menu_grubs.Name = "Menu_grubs"
+        Me.Menu_grubs.Size = New System.Drawing.Size(160, 120)
+        Me.Menu_grubs.TabIndex = 13
+        '
+        'Menu_text_grubs
+        '
+        Me.Menu_text_grubs.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Menu_text_grubs.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Menu_text_grubs.ForeColor = System.Drawing.Color.White
+        Me.Menu_text_grubs.Location = New System.Drawing.Point(0, 0)
+        Me.Menu_text_grubs.Name = "Menu_text_grubs"
+        Me.Menu_text_grubs.Size = New System.Drawing.Size(160, 120)
+        Me.Menu_text_grubs.TabIndex = 0
+        Me.Menu_text_grubs.Text = "Grubs"
+        Me.Menu_text_grubs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'MSE_hub
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_green
         Me.ClientSize = New System.Drawing.Size(830, 438)
+        Me.Controls.Add(Me.Menu_grubs)
         Me.Controls.Add(Me.Menu_horse)
         Me.Controls.Add(Me.Panel_description)
         Me.Controls.Add(Me.Menu_party)
@@ -360,6 +388,7 @@ Partial Class MSE_hub
         CType(Me.valu_checkMSEupdate, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Menu_party.ResumeLayout(False)
         Me.Menu_horse.ResumeLayout(False)
+        Me.Menu_grubs.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -388,4 +417,6 @@ Partial Class MSE_hub
     Friend WithEvents Menu_text_party As Label
     Friend WithEvents Menu_horse As Panel
     Friend WithEvents Menu_text_horse As Label
+    Friend WithEvents Menu_grubs As Panel
+    Friend WithEvents Menu_text_grubs As Label
 End Class

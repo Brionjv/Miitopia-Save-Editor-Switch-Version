@@ -86,6 +86,12 @@
     <Compile Include="MSE_dialog.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MSE_grubs.Designer.vb">
+      <DependentUpon>MSE_grubs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MSE_grubs.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MSE_horse.Designer.vb">
       <DependentUpon>MSE_horse.vb</DependentUpon>
     </Compile>
@@ -150,6 +156,9 @@
     <EmbeddedResource Include="MSE_dialog.resx">
       <DependentUpon>MSE_dialog.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MSE_grubs.resx">
+      <DependentUpon>MSE_grubs.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MSE_horse.resx">
       <DependentUpon>MSE_horse.vb</DependentUpon>
     </EmbeddedResource>
@@ -192,6 +201,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\bg_orange.png" />
+    <None Include="Resources\menu_grubs_on.png" />
+    <None Include="Resources\menu_grubs_off.png" />
     <None Include="Resources\icon_import.png" />
     <None Include="Resources\bg_unlockinnoptions.png" />
     <None Include="Resources\bg_horse_girl.png" />
