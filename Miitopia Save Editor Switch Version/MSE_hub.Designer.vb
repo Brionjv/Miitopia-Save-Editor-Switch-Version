@@ -48,6 +48,8 @@ Partial Class MSE_hub
         Me.Menu_text_horse = New System.Windows.Forms.Label()
         Me.Menu_grubs = New System.Windows.Forms.Panel()
         Me.Menu_text_grubs = New System.Windows.Forms.Label()
+        Me.Menu_transferMii = New System.Windows.Forms.Panel()
+        Me.Menu_text_transferMii = New System.Windows.Forms.Label()
         Me.MSE_header.SuspendLayout()
         CType(Me.MSE_title, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_minimize, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -63,6 +65,7 @@ Partial Class MSE_hub
         Me.Menu_party.SuspendLayout()
         Me.Menu_horse.SuspendLayout()
         Me.Menu_grubs.SuspendLayout()
+        Me.Menu_transferMii.SuspendLayout()
         Me.SuspendLayout()
         '
         'MSE_header
@@ -349,12 +352,37 @@ Partial Class MSE_hub
         Me.Menu_text_grubs.Text = "Grubs"
         Me.Menu_text_grubs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Menu_transferMii
+        '
+        Me.Menu_transferMii.BackColor = System.Drawing.Color.Transparent
+        Me.Menu_transferMii.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.menu_Miitransfert_off
+        Me.Menu_transferMii.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Menu_transferMii.Controls.Add(Me.Menu_text_transferMii)
+        Me.Menu_transferMii.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Menu_transferMii.Location = New System.Drawing.Point(438, 270)
+        Me.Menu_transferMii.Name = "Menu_transferMii"
+        Me.Menu_transferMii.Size = New System.Drawing.Size(160, 120)
+        Me.Menu_transferMii.TabIndex = 14
+        '
+        'Menu_text_transferMii
+        '
+        Me.Menu_text_transferMii.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Menu_text_transferMii.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Menu_text_transferMii.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.Menu_text_transferMii.Location = New System.Drawing.Point(0, 0)
+        Me.Menu_text_transferMii.Name = "Menu_text_transferMii"
+        Me.Menu_text_transferMii.Size = New System.Drawing.Size(160, 120)
+        Me.Menu_text_transferMii.TabIndex = 0
+        Me.Menu_text_transferMii.Text = "Transfer Mii"
+        Me.Menu_text_transferMii.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'MSE_hub
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_green
         Me.ClientSize = New System.Drawing.Size(830, 438)
+        Me.Controls.Add(Me.Menu_transferMii)
         Me.Controls.Add(Me.Menu_grubs)
         Me.Controls.Add(Me.Menu_horse)
         Me.Controls.Add(Me.Panel_description)
@@ -389,6 +417,7 @@ Partial Class MSE_hub
         Me.Menu_party.ResumeLayout(False)
         Me.Menu_horse.ResumeLayout(False)
         Me.Menu_grubs.ResumeLayout(False)
+        Me.Menu_transferMii.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -419,4 +448,6 @@ Partial Class MSE_hub
     Friend WithEvents Menu_text_horse As Label
     Friend WithEvents Menu_grubs As Panel
     Friend WithEvents Menu_text_grubs As Label
+    Friend WithEvents Menu_transferMii As Panel
+    Friend WithEvents Menu_text_transferMii As Label
 End Class

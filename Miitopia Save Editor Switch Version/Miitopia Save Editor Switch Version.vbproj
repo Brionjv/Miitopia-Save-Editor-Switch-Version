@@ -129,6 +129,12 @@
     <Compile Include="MSE_success.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MSE_transferMii.Designer.vb">
+      <DependentUpon>MSE_transferMii.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MSE_transferMii.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MSE_unlockable.Designer.vb">
       <DependentUpon>MSE_unlockable.vb</DependentUpon>
     </Compile>
@@ -177,6 +183,9 @@
     <EmbeddedResource Include="MSE_success.resx">
       <DependentUpon>MSE_success.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MSE_transferMii.resx">
+      <DependentUpon>MSE_transferMii.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MSE_unlockable.resx">
       <DependentUpon>MSE_unlockable.vb</DependentUpon>
     </EmbeddedResource>
@@ -201,6 +210,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\bg_lightgreen.png" />
+    <None Include="Resources\menu_Miitransfert_on.png" />
+    <None Include="Resources\menu_Miitransfert_off.png" />
     <None Include="Resources\bg_orange.png" />
     <None Include="Resources\menu_grubs_on.png" />
     <None Include="Resources\menu_grubs_off.png" />

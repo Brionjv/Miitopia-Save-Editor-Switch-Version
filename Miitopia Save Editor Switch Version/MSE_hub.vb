@@ -157,6 +157,22 @@ Public Class MSE_hub
         Panel_description.Visible = True
     End Sub
 
+    Private Sub Menu_text_transferMii_Click(sender As Object, e As EventArgs) Handles Menu_text_transferMii.Click
+        MSE_transferMii.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Menu_text_transferMii_MouseLeave(sender As Object, e As EventArgs) Handles Menu_text_transferMii.MouseLeave
+        Menu_transferMii.BackgroundImage = My.Resources.menu_Miitransfert_off
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Menu_text_transferMii_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_transferMii.MouseMove
+        Menu_transferMii.BackgroundImage = My.Resources.menu_Miitransfert_on
+        Text_description.Text = "Export and import Miis"
+        Panel_description.Visible = True
+    End Sub
+
     'end menu
 
     'update
