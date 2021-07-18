@@ -21,3 +21,4 @@ C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Ed
 C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Debug\Miitopia Save Editor Switch Version.vbproj.AssemblyReference.cache
 C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Debug\Miitopia_Save_Editor_Switch_Version.MSE_grubs.resources
 C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Debug\Miitopia_Save_Editor_Switch_Version.MSE_transferMii.resources
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Debug\Miitopia_Save_Editor_Switch_Version.Grubs.resources

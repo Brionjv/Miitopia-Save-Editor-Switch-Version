@@ -9,8 +9,8 @@ Public Class MSE_horse
     Dim mainsav = MSE_hub.Text_filepath.Text
     Dim horsename = &H1376A8
     Dim gender = &H1376BE
-    Dim Ho_appareance = &H1377F0 '&HE0
-    Dim Horseappareance As String
+    Dim Ho_appearance = &H1377F0 '&HE0
+    Dim Horseappearance As String
 
     'base
     Private Sub Icon_close_Click(sender As Object, e As EventArgs) Handles Icon_close.Click
@@ -108,8 +108,8 @@ Public Class MSE_horse
             Text_horsename.Text = ReadHorse.ReadUnicodeString(10)
             ReadHorse.Position = gender
             valu_gender.Value = ReadHorse.ReadByte
-            ReadHorse.Position = Ho_appareance
-            Text_Ho_appareance.Text = ReadHorse.ReadHexString(&HE0)
+            ReadHorse.Position = Ho_appearance
+            Text_Ho_appearance.Text = ReadHorse.ReadHexString(&HE0)
         Catch ex As Exception
             MSE_dialog.text_dialog.Text = "Failed to read main.sav horse" & vbNewLine & "Report this issue or retry"
             MSE_dialog.ShowDialog()
@@ -120,13 +120,13 @@ Public Class MSE_horse
         Try
             Dim SaveFileDialog1 As New SaveFileDialog
             SaveFileDialog1.Filter = "Miitopia Horse|*.MiitopiaHoA"
-            SaveFileDialog1.FileName = "Horseappareance_" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute
+            SaveFileDialog1.FileName = "Horseappearance_" & Today.Year & "_" & Today.Month & "_" & Today.Day & "_" & TimeOfDay.Hour & "h" & TimeOfDay.Minute
             If SaveFileDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
                 Dim Writer1 As New System.IO.StreamWriter(SaveFileDialog1.FileName)
                 Writer1.Close()
                 Dim Writer As New PackageIO.Writer(SaveFileDialog1.FileName, PackageIO.Endian.Little)
-                Writer.WriteHexString(Text_Ho_appareance.Text)
-                MSE_dialog.text_dialog.Text = "Horse appareance has been successfully extracted"
+                Writer.WriteHexString(Text_Ho_appearance.Text)
+                MSE_dialog.text_dialog.Text = "Horse appearance has been successfully extracted"
                 MSE_dialog.ShowDialog()
             End If
         Catch ex As Exception
@@ -136,7 +136,7 @@ Public Class MSE_horse
     End Sub
 
     Private Sub Icon_extract_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_extract.MouseMove
-        Text_description.Text = "Click to extract your horse appareance"
+        Text_description.Text = "Click to extract your horse appearance"
         Panel_description.Visible = True
     End Sub
 
@@ -147,41 +147,41 @@ Public Class MSE_horse
     Private Sub Icon_import_Click(sender As Object, e As EventArgs) Handles Icon_import.Click
         Dim open As New OpenFileDialog
 
-        MSE_dialog.text_dialog.Text = "Open a Miitopia Horse appareance file" & vbNewLine & "Current horse appareance will be replace by horse appareance in Miitopia horse appareance file" & vbNewLine & vbNewLine & "Do you want to continue ?"
+        MSE_dialog.text_dialog.Text = "Open a Miitopia Horse appearance file" & vbNewLine & "Current horse appearance will be replace by horse appearance in Miitopia horse appearance file" & vbNewLine & vbNewLine & "Do you want to continue ?"
         MSE_dialog.MSE_dialog_panelbuttons.Visible = True
         MSE_dialog.ShowDialog()
 
         If MSE_dialog.DialogResult = Windows.Forms.DialogResult.OK Then
-            open.Filter = "Horse appareance file|*.MiitopiaHoA"
-            open.Title = "Open a Miitopia Horse appareance file"
+            open.Filter = "Horse appearance file|*.MiitopiaHoA"
+            open.Title = "Open a Miitopia Horse appearance file"
             open.ShowDialog()
-            Horseappareance = open.FileName
+            Horseappearance = open.FileName
             Try
-                Dim ReadHoA As New PackageIO.Reader(Horseappareance, PackageIO.Endian.Little)
+                Dim ReadHoA As New PackageIO.Reader(Horseappearance, PackageIO.Endian.Little)
                 ReadHoA.Position = &H0
                 Text_globalhorse.Text = ReadHoA.ReadHexString(&HE0)
                 ReadHoA.Close()
             Catch ex As Exception
-                MSE_dialog.text_dialog.Text = "Failed to read Miitopia Horse appareance file" & vbNewLine & "Select a valid Miitopia horse appareance file or report this issue"
+                MSE_dialog.text_dialog.Text = "Failed to read Miitopia Horse appearance file" & vbNewLine & "Select a valid Miitopia horse appearance file or report this issue"
                 MSE_dialog.ShowDialog()
             End Try
             Try
                 Dim Writer As New PackageIO.Writer(CStr(mainsav), PackageIO.Endian.Little)
-                Writer.Position = Ho_appareance
+                Writer.Position = Ho_appearance
                 Writer.WriteHexString(Text_globalhorse.Text)
-                MSE_dialog.text_dialog.Text = "This Horse appareance has been successfully replaced, you will be back to menu"
+                MSE_dialog.text_dialog.Text = "This Horse appearance has been successfully replaced, you will be back to menu"
                 MSE_dialog.ShowDialog()
                 MSE_hub.Show()
                 Me.Close()
             Catch ex As Exception
-                MSE_dialog.text_dialog.Text = "Failed to write Horse appareance" & vbNewLine & "Make sure you have opened a Miitopia save file before or report this issue"
+                MSE_dialog.text_dialog.Text = "Failed to write Horse appearance" & vbNewLine & "Make sure you have opened a Miitopia save file before or report this issue"
                 MSE_dialog.ShowDialog()
             End Try
         End If
     End Sub
 
     Private Sub Icon_import_MouseMove(sender As Object, e As MouseEventArgs) Handles Icon_import.MouseMove
-        Text_description.Text = "Click to import a horse appareance"
+        Text_description.Text = "Click to import a horse appearance"
         Panel_description.Visible = True
     End Sub
 

@@ -31,8 +31,8 @@ Partial Class MSE_transferMii
         Me.MSE_logo = New System.Windows.Forms.PictureBox()
         Me.Panel_description = New System.Windows.Forms.Panel()
         Me.Text_description = New System.Windows.Forms.Label()
-        Me.Text_Mii_appareanceI = New System.Windows.Forms.TextBox()
-        Me.Text_Mii_appareanceE = New System.Windows.Forms.TextBox()
+        Me.Text_Mii_appearanceI = New System.Windows.Forms.TextBox()
+        Me.Text_Mii_appearanceE = New System.Windows.Forms.TextBox()
         Me.Select_Mii = New System.Windows.Forms.ComboBox()
         Me.Icon_import = New System.Windows.Forms.PictureBox()
         Me.Icon_extract = New System.Windows.Forms.PictureBox()
@@ -137,27 +137,27 @@ Partial Class MSE_transferMii
         Me.Text_description.Text = "Miitopia Save Editor"
         Me.Text_description.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Text_Mii_appareanceI
+        'Text_Mii_appearanceI
         '
-        Me.Text_Mii_appareanceI.Location = New System.Drawing.Point(480, 163)
-        Me.Text_Mii_appareanceI.MaxLength = 999999999
-        Me.Text_Mii_appareanceI.Multiline = True
-        Me.Text_Mii_appareanceI.Name = "Text_Mii_appareanceI"
-        Me.Text_Mii_appareanceI.Size = New System.Drawing.Size(181, 122)
-        Me.Text_Mii_appareanceI.TabIndex = 45
-        Me.Text_Mii_appareanceI.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.Text_Mii_appareanceI.Visible = False
+        Me.Text_Mii_appearanceI.Location = New System.Drawing.Point(480, 163)
+        Me.Text_Mii_appearanceI.MaxLength = 999999999
+        Me.Text_Mii_appearanceI.Multiline = True
+        Me.Text_Mii_appearanceI.Name = "Text_Mii_appearanceI"
+        Me.Text_Mii_appearanceI.Size = New System.Drawing.Size(181, 122)
+        Me.Text_Mii_appearanceI.TabIndex = 45
+        Me.Text_Mii_appearanceI.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Text_Mii_appearanceI.Visible = False
         '
-        'Text_Mii_appareanceE
+        'Text_Mii_appearanceE
         '
-        Me.Text_Mii_appareanceE.Location = New System.Drawing.Point(262, 163)
-        Me.Text_Mii_appareanceE.MaxLength = 999999999
-        Me.Text_Mii_appareanceE.Multiline = True
-        Me.Text_Mii_appareanceE.Name = "Text_Mii_appareanceE"
-        Me.Text_Mii_appareanceE.Size = New System.Drawing.Size(181, 122)
-        Me.Text_Mii_appareanceE.TabIndex = 44
-        Me.Text_Mii_appareanceE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.Text_Mii_appareanceE.Visible = False
+        Me.Text_Mii_appearanceE.Location = New System.Drawing.Point(262, 163)
+        Me.Text_Mii_appearanceE.MaxLength = 999999999
+        Me.Text_Mii_appearanceE.Multiline = True
+        Me.Text_Mii_appearanceE.Name = "Text_Mii_appearanceE"
+        Me.Text_Mii_appearanceE.Size = New System.Drawing.Size(181, 122)
+        Me.Text_Mii_appearanceE.TabIndex = 44
+        Me.Text_Mii_appearanceE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Text_Mii_appearanceE.Visible = False
         '
         'Select_Mii
         '
@@ -226,7 +226,7 @@ Partial Class MSE_transferMii
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(199, 13)
         Me.Label1.TabIndex = 48
-        Me.Label1.Text = "Import a Mii appareance on a existing Mii"
+        Me.Label1.Text = "Import a Mii appearance on a existing Mii"
         '
         'MSE_transferMii
         '
@@ -237,8 +237,8 @@ Partial Class MSE_transferMii
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Iconwar_partylevel)
         Me.Controls.Add(Me.Text_Miiname)
-        Me.Controls.Add(Me.Text_Mii_appareanceI)
-        Me.Controls.Add(Me.Text_Mii_appareanceE)
+        Me.Controls.Add(Me.Text_Mii_appearanceI)
+        Me.Controls.Add(Me.Text_Mii_appearanceE)
         Me.Controls.Add(Me.Select_Mii)
         Me.Controls.Add(Me.Icon_import)
         Me.Controls.Add(Me.Icon_extract)
@@ -274,8 +274,8 @@ Partial Class MSE_transferMii
     Friend WithEvents MSE_logo As PictureBox
     Friend WithEvents Panel_description As Panel
     Friend WithEvents Text_description As Label
-    Friend WithEvents Text_Mii_appareanceI As TextBox
-    Friend WithEvents Text_Mii_appareanceE As TextBox
+    Friend WithEvents Text_Mii_appearanceI As TextBox
+    Friend WithEvents Text_Mii_appearanceE As TextBox
     Friend WithEvents Select_Mii As ComboBox
     Friend WithEvents Icon_import As PictureBox
     Friend WithEvents Icon_extract As PictureBox

@@ -40,7 +40,7 @@ Partial Class MSE_horse
         Me.Icon_gender_boy = New System.Windows.Forms.PictureBox()
         Me.Icon_gender_girl = New System.Windows.Forms.PictureBox()
         Me.valu_gender = New System.Windows.Forms.NumericUpDown()
-        Me.Text_Ho_appareance = New System.Windows.Forms.TextBox()
+        Me.Text_Ho_appearance = New System.Windows.Forms.TextBox()
         Me.Icon_import = New System.Windows.Forms.PictureBox()
         Me.Text_globalhorse = New System.Windows.Forms.TextBox()
         CType(Me.Icon_menu, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -243,16 +243,16 @@ Partial Class MSE_horse
         Me.valu_gender.Value = New Decimal(New Integer() {3, 0, 0, 0})
         Me.valu_gender.Visible = False
         '
-        'Text_Ho_appareance
+        'Text_Ho_appearance
         '
-        Me.Text_Ho_appareance.Location = New System.Drawing.Point(21, 133)
-        Me.Text_Ho_appareance.MaxLength = 32767695
-        Me.Text_Ho_appareance.Multiline = True
-        Me.Text_Ho_appareance.Name = "Text_Ho_appareance"
-        Me.Text_Ho_appareance.Size = New System.Drawing.Size(181, 122)
-        Me.Text_Ho_appareance.TabIndex = 33
-        Me.Text_Ho_appareance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.Text_Ho_appareance.Visible = False
+        Me.Text_Ho_appearance.Location = New System.Drawing.Point(21, 133)
+        Me.Text_Ho_appearance.MaxLength = 32767695
+        Me.Text_Ho_appearance.Multiline = True
+        Me.Text_Ho_appearance.Name = "Text_Ho_appearance"
+        Me.Text_Ho_appearance.Size = New System.Drawing.Size(181, 122)
+        Me.Text_Ho_appearance.TabIndex = 33
+        Me.Text_Ho_appearance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Text_Ho_appearance.Visible = False
         '
         'Icon_import
         '
@@ -284,7 +284,7 @@ Partial Class MSE_horse
         Me.ClientSize = New System.Drawing.Size(830, 349)
         Me.Controls.Add(Me.Text_globalhorse)
         Me.Controls.Add(Me.Icon_import)
-        Me.Controls.Add(Me.Text_Ho_appareance)
+        Me.Controls.Add(Me.Text_Ho_appearance)
         Me.Controls.Add(Me.valu_gender)
         Me.Controls.Add(Me.Icon_gender_girl)
         Me.Controls.Add(Me.Icon_gender_boy)
@@ -337,7 +337,7 @@ Partial Class MSE_horse
     Friend WithEvents Icon_gender_boy As PictureBox
     Friend WithEvents Icon_gender_girl As PictureBox
     Friend WithEvents valu_gender As NumericUpDown
-    Friend WithEvents Text_Ho_appareance As TextBox
+    Friend WithEvents Text_Ho_appearance As TextBox
     Friend WithEvents Icon_import As PictureBox
     Friend WithEvents Text_globalhorse As TextBox
 End Class
