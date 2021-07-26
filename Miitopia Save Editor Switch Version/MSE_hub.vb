@@ -173,6 +173,22 @@ Public Class MSE_hub
         Panel_description.Visible = True
     End Sub
 
+    Private Sub Menu_text_jobslevelsboosts_Click(sender As Object, e As EventArgs) Handles Menu_text_jobslevelsboosts.Click
+        MSE_jobslevelsboosts.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Menu_text_jobslevelsboosts_MouseLeave(sender As Object, e As EventArgs) Handles Menu_text_jobslevelsboosts.MouseLeave
+        Menu_jobslevelsboosts.BackgroundImage = My.Resources.Menu_jobslevelboost_off
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Menu_text_jobslevelsboosts_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_jobslevelsboosts.MouseMove
+        Menu_jobslevelsboosts.BackgroundImage = My.Resources.Menu_jobslevelboost_on
+        Text_description.Text = "Edit Miis jobs levels and boosts"
+        Panel_description.Visible = True
+    End Sub
+
     'end menu
 
     'update

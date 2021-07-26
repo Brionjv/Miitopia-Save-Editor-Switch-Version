@@ -1008,7 +1008,7 @@ Partial Class MSE_inventory
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_red
+        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_inventory
         Me.ClientSize = New System.Drawing.Size(830, 700)
         Me.Controls.Add(Me.Icon_menu)
         Me.Controls.Add(Me.Fea_outingstickets)

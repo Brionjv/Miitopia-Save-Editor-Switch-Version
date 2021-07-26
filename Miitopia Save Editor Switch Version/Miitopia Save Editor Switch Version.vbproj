@@ -14,6 +14,21 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -116,6 +131,12 @@
     <Compile Include="MSE_inventory.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MSE_jobslevelsboosts.Designer.vb">
+      <DependentUpon>MSE_jobslevelsboosts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MSE_jobslevelsboosts.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MSE_loading.Designer.vb">
       <DependentUpon>MSE_loading.vb</DependentUpon>
     </Compile>
@@ -184,6 +205,9 @@
     <EmbeddedResource Include="MSE_inventory.resx">
       <DependentUpon>MSE_inventory.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MSE_jobslevelsboosts.resx">
+      <DependentUpon>MSE_jobslevelsboosts.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MSE_loading.resx">
       <DependentUpon>MSE_loading.vb</DependentUpon>
     </EmbeddedResource>
@@ -220,6 +244,35 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\icon_mii_villa.png" />
+    <None Include="Resources\icon_mii_inn.png" />
+    <None Include="Resources\Miitopia_-_Warrior_Icon.png" />
+    <None Include="Resources\Miitopia_-_Vampire_Icon.png" />
+    <None Include="Resources\Miitopia_-_Thief_Icon.png" />
+    <None Include="Resources\Miitopia_-_Tank_Icon.png" />
+    <None Include="Resources\Miitopia_-_Scientist_Icon.png" />
+    <None Include="Resources\Miitopia_-_Princess_Icon.png" />
+    <None Include="Resources\Miitopia_-_Pop_Star_Icon.png" />
+    <None Include="Resources\Miitopia_-_Mage_Icon.png" />
+    <None Include="Resources\Miitopia_-_Imp_Icon.png" />
+    <None Include="Resources\Miitopia_-_Flower_Icon.png" />
+    <None Include="Resources\Miitopia_-_Elf_Icon.png" />
+    <None Include="Resources\Miitopia_-_Cleric_Icon.png" />
+    <None Include="Resources\Miitopia_-_Chef_Icon.png" />
+    <None Include="Resources\Miitopia_-_Cat_Icon.png" />
+    <None Include="Resources\bg_feaempty_2.png" />
+    <None Include="Resources\bg_feaempty.png" />
+    <None Include="Resources\bg_selectmii.png" />
+    <None Include="Resources\Menu_jobslevelboost_on.png" />
+    <None Include="Resources\Menu_jobslevelboost_off.png" />
+    <None Include="Resources\bg_jobslevelboost.png" />
+    <None Include="Resources\bg_unlockable.png" />
+    <None Include="Resources\bg_transfermii.png" />
+    <None Include="Resources\bg_success.png" />
+    <None Include="Resources\bg_party.png" />
+    <None Include="Resources\bg_inventory.png" />
+    <None Include="Resources\bg_horse.png" />
+    <None Include="Resources\bg_grubs.png" />
     <None Include="Resources\arrow_right.png" />
     <None Include="Resources\arrow_left.png" />
     <None Include="Resources\grub_196.png" />
@@ -482,6 +535,18 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

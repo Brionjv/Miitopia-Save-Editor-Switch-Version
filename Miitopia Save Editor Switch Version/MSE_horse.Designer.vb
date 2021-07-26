@@ -280,7 +280,7 @@ Partial Class MSE_horse
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_pink
+        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_horse
         Me.ClientSize = New System.Drawing.Size(830, 349)
         Me.Controls.Add(Me.Text_globalhorse)
         Me.Controls.Add(Me.Icon_import)

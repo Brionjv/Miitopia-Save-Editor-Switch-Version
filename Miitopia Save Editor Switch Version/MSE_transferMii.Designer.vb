@@ -39,6 +39,7 @@ Partial Class MSE_transferMii
         Me.Text_Miiname = New System.Windows.Forms.Label()
         Me.Iconwar_partylevel = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.Icon_menu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MSE_header.SuspendLayout()
         CType(Me.MSE_title, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -49,6 +50,7 @@ Partial Class MSE_transferMii
         CType(Me.Icon_import, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_extract, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Iconwar_partylevel, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Icon_menu
@@ -228,11 +230,21 @@ Partial Class MSE_transferMii
         Me.Label1.TabIndex = 48
         Me.Label1.Text = "Import a Mii appearance on a existing Mii"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_selectmii
+        Me.PictureBox1.Location = New System.Drawing.Point(73, 127)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(65, 38)
+        Me.PictureBox1.TabIndex = 49
+        Me.PictureBox1.TabStop = False
+        '
         'MSE_transferMii
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_lightgreen
+        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_transfermii
         Me.ClientSize = New System.Drawing.Size(830, 361)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Iconwar_partylevel)
@@ -246,6 +258,7 @@ Partial Class MSE_transferMii
         Me.Controls.Add(Me.Icon_menu)
         Me.Controls.Add(Me.MSE_header)
         Me.Controls.Add(Me.MSE_logo)
+        Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "MSE_transferMii"
@@ -261,6 +274,7 @@ Partial Class MSE_transferMii
         CType(Me.Icon_import, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_extract, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Iconwar_partylevel, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -282,4 +296,5 @@ Partial Class MSE_transferMii
     Friend WithEvents Text_Miiname As Label
     Friend WithEvents Iconwar_partylevel As PictureBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

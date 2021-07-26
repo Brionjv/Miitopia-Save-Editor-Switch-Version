@@ -50,6 +50,8 @@ Partial Class MSE_hub
         Me.Menu_text_grubs = New System.Windows.Forms.Label()
         Me.Menu_transferMii = New System.Windows.Forms.Panel()
         Me.Menu_text_transferMii = New System.Windows.Forms.Label()
+        Me.Menu_jobslevelsboosts = New System.Windows.Forms.Panel()
+        Me.Menu_text_jobslevelsboosts = New System.Windows.Forms.Label()
         Me.MSE_header.SuspendLayout()
         CType(Me.MSE_title, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_minimize, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -66,6 +68,7 @@ Partial Class MSE_hub
         Me.Menu_horse.SuspendLayout()
         Me.Menu_grubs.SuspendLayout()
         Me.Menu_transferMii.SuspendLayout()
+        Me.Menu_jobslevelsboosts.SuspendLayout()
         Me.SuspendLayout()
         '
         'MSE_header
@@ -174,7 +177,7 @@ Partial Class MSE_hub
         Me.MSE_version.Name = "MSE_version"
         Me.MSE_version.Size = New System.Drawing.Size(100, 23)
         Me.MSE_version.TabIndex = 4
-        Me.MSE_version.Text = "Version 1.8.0"
+        Me.MSE_version.Text = "Version 1.9.0"
         Me.MSE_version.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Panel2
@@ -376,12 +379,37 @@ Partial Class MSE_hub
         Me.Menu_text_transferMii.Text = "Transfer Mii"
         Me.Menu_text_transferMii.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Menu_jobslevelsboosts
+        '
+        Me.Menu_jobslevelsboosts.BackColor = System.Drawing.Color.Transparent
+        Me.Menu_jobslevelsboosts.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Menu_jobslevelboost_off
+        Me.Menu_jobslevelsboosts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Menu_jobslevelsboosts.Controls.Add(Me.Menu_text_jobslevelsboosts)
+        Me.Menu_jobslevelsboosts.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Menu_jobslevelsboosts.Location = New System.Drawing.Point(643, 270)
+        Me.Menu_jobslevelsboosts.Name = "Menu_jobslevelsboosts"
+        Me.Menu_jobslevelsboosts.Size = New System.Drawing.Size(160, 120)
+        Me.Menu_jobslevelsboosts.TabIndex = 15
+        '
+        'Menu_text_jobslevelsboosts
+        '
+        Me.Menu_text_jobslevelsboosts.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Menu_text_jobslevelsboosts.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Menu_text_jobslevelsboosts.ForeColor = System.Drawing.Color.White
+        Me.Menu_text_jobslevelsboosts.Location = New System.Drawing.Point(0, 0)
+        Me.Menu_text_jobslevelsboosts.Name = "Menu_text_jobslevelsboosts"
+        Me.Menu_text_jobslevelsboosts.Size = New System.Drawing.Size(160, 120)
+        Me.Menu_text_jobslevelsboosts.TabIndex = 0
+        Me.Menu_text_jobslevelsboosts.Text = "Jobs levels / Boosts"
+        Me.Menu_text_jobslevelsboosts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'MSE_hub
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_green
         Me.ClientSize = New System.Drawing.Size(830, 438)
+        Me.Controls.Add(Me.Menu_jobslevelsboosts)
         Me.Controls.Add(Me.Menu_transferMii)
         Me.Controls.Add(Me.Menu_grubs)
         Me.Controls.Add(Me.Menu_horse)
@@ -418,6 +446,7 @@ Partial Class MSE_hub
         Me.Menu_horse.ResumeLayout(False)
         Me.Menu_grubs.ResumeLayout(False)
         Me.Menu_transferMii.ResumeLayout(False)
+        Me.Menu_jobslevelsboosts.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -450,4 +479,6 @@ Partial Class MSE_hub
     Friend WithEvents Menu_text_grubs As Label
     Friend WithEvents Menu_transferMii As Panel
     Friend WithEvents Menu_text_transferMii As Label
+    Friend WithEvents Menu_jobslevelsboosts As Panel
+    Friend WithEvents Menu_text_jobslevelsboosts As Label
 End Class

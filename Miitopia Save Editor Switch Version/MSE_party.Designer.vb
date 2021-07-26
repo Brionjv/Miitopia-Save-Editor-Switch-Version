@@ -316,7 +316,7 @@ Partial Class MSE_party
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_blue
+        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_party
         Me.ClientSize = New System.Drawing.Size(830, 360)
         Me.Controls.Add(Me.Iconwar_partylevel)
         Me.Controls.Add(Me.valu_dragon)

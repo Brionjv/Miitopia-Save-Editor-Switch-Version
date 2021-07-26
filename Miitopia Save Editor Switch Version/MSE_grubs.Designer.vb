@@ -7350,7 +7350,7 @@ Partial Class MSE_grubs
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_orange
+        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_grubs
         Me.ClientSize = New System.Drawing.Size(830, 570)
         Me.Controls.Add(Me.Arrow_left_panel3)
         Me.Controls.Add(Me.Arrow_right_panel4)

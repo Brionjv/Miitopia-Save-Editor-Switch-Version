@@ -271,7 +271,7 @@ Partial Class MSE_success
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_violet
+        Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_success
         Me.ClientSize = New System.Drawing.Size(830, 369)
         Me.Controls.Add(Me.Fea_questscleared)
         Me.Controls.Add(Me.Fea_chestsopened)
