@@ -1048,12 +1048,32 @@ Miitopia Save Editor Switch Version
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_feaempty">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_feaempty_2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_gold">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_green">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_grubs">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_horse">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
@@ -1083,6 +1103,16 @@ Miitopia Save Editor Switch Version
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_inventory">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_jobslevelboost">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_lightgreen">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -1108,6 +1138,11 @@ Miitopia Save Editor Switch Version
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_party">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_pink">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -1129,6 +1164,26 @@ Miitopia Save Editor Switch Version
 </summary>
 </member>
 <member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_rescued">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_selectmii">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_success">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_transfermii">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_unlockable">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
@@ -1223,6 +1278,16 @@ Miitopia Save Editor Switch Version
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.icon_mii_inn">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.icon_mii_villa">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.icon_minimize">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -1278,6 +1343,16 @@ Miitopia Save Editor Switch Version
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Menu_jobslevelboost_off">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Menu_jobslevelboost_on">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.menu_Miitransfert_off">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
@@ -1314,6 +1389,76 @@ Miitopia Save Editor Switch Version
 </summary>
 </member>
 <member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.menu_unlockable_on">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Cat_Icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Chef_Icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Cleric_Icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Elf_Icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Flower_Icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Imp_Icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Mage_Icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Pop_Star_Icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Princess_Icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Scientist_Icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Tank_Icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Thief_Icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Vampire_Icon">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Warrior_Icon">
 <summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
