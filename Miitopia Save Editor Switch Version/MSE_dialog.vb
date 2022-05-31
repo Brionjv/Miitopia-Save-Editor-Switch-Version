@@ -15,4 +15,8 @@ Public Class MSE_dialog
     Private Sub text_dialog_Click(sender As Object, e As EventArgs) Handles text_dialog.Click
         Me.Close()
     End Sub
+
+    Private Sub MSE_dialog_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        MSE_dialog_panelbuttons.Visible = False
+    End Sub
 End Class

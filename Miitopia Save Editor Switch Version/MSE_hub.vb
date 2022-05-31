@@ -189,6 +189,38 @@ Public Class MSE_hub
         Panel_description.Visible = True
     End Sub
 
+    Private Sub Menu_text_catalog_Click(sender As Object, e As EventArgs) Handles Menu_text_catalog.Click
+        MSE_catalog.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Menu_text_catalog_MouseLeave(sender As Object, e As EventArgs) Handles Menu_text_catalog.MouseLeave
+        Menu_catalog.BackgroundImage = My.Resources.menu_catalog_off
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Menu_text_catalog_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_catalog.MouseMove
+        Menu_catalog.BackgroundImage = My.Resources.menu_catalog_on
+        Text_description.Text = "Unlock monsters, grubs, equpments and musics in journal"
+        Panel_description.Visible = True
+    End Sub
+
+    Private Sub Menu_text_miiprofile_Click(sender As Object, e As EventArgs) Handles Menu_text_miiprofile.Click
+        MSE_miiprofile.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Menu_text_miiprofile_MouseLeave(sender As Object, e As EventArgs) Handles Menu_text_miiprofile.MouseLeave
+        Menu_miiprofile.BackgroundImage = My.Resources.menu_miiprofile_off
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Menu_text_miiprofile_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_miiprofile.MouseMove
+        Menu_miiprofile.BackgroundImage = My.Resources.menu_miiprofile_on
+        Text_description.Text = "Edit Mii name (hero), war cry, pose, classe, personnality"
+        Panel_description.Visible = True
+    End Sub
+
     'end menu
 
     'update

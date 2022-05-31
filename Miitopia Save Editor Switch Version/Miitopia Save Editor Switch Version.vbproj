@@ -100,6 +100,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Grubs.resx</DependentUpon>
     </Compile>
+    <Compile Include="MSE_catalog.Designer.vb">
+      <DependentUpon>MSE_catalog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MSE_catalog.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MSE_dialog.Designer.vb">
       <DependentUpon>MSE_dialog.vb</DependentUpon>
     </Compile>
@@ -141,6 +147,12 @@
       <DependentUpon>MSE_loading.vb</DependentUpon>
     </Compile>
     <Compile Include="MSE_loading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MSE_miiprofile.Designer.vb">
+      <DependentUpon>MSE_miiprofile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MSE_miiprofile.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MSE_party.Designer.vb">
@@ -190,6 +202,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Grubs.Designer.vb</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="MSE_catalog.resx">
+      <DependentUpon>MSE_catalog.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MSE_dialog.resx">
       <DependentUpon>MSE_dialog.vb</DependentUpon>
     </EmbeddedResource>
@@ -210,6 +225,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MSE_loading.resx">
       <DependentUpon>MSE_loading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MSE_miiprofile.resx">
+      <DependentUpon>MSE_miiprofile.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MSE_party.resx">
       <DependentUpon>MSE_party.vb</DependentUpon>
@@ -244,6 +262,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\menu_miiprofile_on.png" />
+    <None Include="Resources\menu_miiprofile_off.png" />
+    <None Include="Resources\bg_miiprofile.png" />
+    <None Include="Resources\icon_medail.png" />
+    <None Include="Resources\bg_catalog_weapons.png" />
+    <None Include="Resources\bg_catalog_musics.png" />
+    <None Include="Resources\bg_catalog_monsters.png" />
+    <None Include="Resources\bg_catalog_grubs.png" />
+    <None Include="Resources\bg_catalog_clothes.png" />
+    <None Include="Resources\bg_catalog.png" />
+    <None Include="Resources\menu_catalog_on.png" />
+    <None Include="Resources\menu_catalog_off.png" />
     <None Include="Resources\icon_mii_villa.png" />
     <None Include="Resources\icon_mii_inn.png" />
     <None Include="Resources\Miitopia_-_Warrior_Icon.png" />

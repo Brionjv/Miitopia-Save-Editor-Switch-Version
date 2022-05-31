@@ -169,7 +169,7 @@ Public Class MSE_unlockable
             WriteBUnlockable.Position = Unlock_sprinkles
             WriteBUnlockable.WriteByte(valu_unlock_sprinkles.Value)
 
-            MSE_dialog.text_dialog.Text = "Unlockables has been succefully edited"
+            MSE_dialog.text_dialog.Text = "Unlockables has been successfully edited"
             MSE_dialog.ShowDialog()
         Catch ex As Exception
             MSE_dialog.text_dialog.Text = "Failed to write unlockables" & vbNewLine & "Check if your save file is not used with an other application or report this issue"

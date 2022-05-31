@@ -118,14 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bg_catalog_monsters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_catalog_monsters.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg_fdialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_fdialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Miitopia_-_Pop_Star_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Miitopia_-_Pop_Star_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_catalog_weapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_catalog_weapons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_mpcandy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_mpcandy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,6 +142,9 @@
   <data name="bg_playticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_playticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg_horse_boy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_horse_boy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg_unlockable" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_unlockable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -145,26 +154,29 @@
   <data name="menu_horse_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_horse_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="menu_success_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_success_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_catalog_grubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_catalog_grubs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_catalog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_catalog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_party" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_party.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_overworld" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_overworld.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Miitopia_-_Elf_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Miitopia_-_Elf_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icon_dragon_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_dragon_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="menu_success_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu_success_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_dragon_on1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_dragon_on1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="button_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\button_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,14 +184,14 @@
   <data name="Miitopia_-_Cleric_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Miitopia_-_Cleric_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Miitopia_-_Thief_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Miitopia_-_Thief_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Miitopia_-_Imp_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Miitopia_-_Imp_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu_grubs_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_grubs_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSE_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSE_title.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_inventory" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_inventory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,14 +205,20 @@
   <data name="Miitopia_-_Chef_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Miitopia_-_Chef_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icon_mii_inn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_mii_inn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_unlocksprinkles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_unlocksprinkles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="arrow_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrow_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_minimize_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_minimize_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MSE_logo_update" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MSE_logo_update.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="menu_catalog_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_catalog_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Miitopia_-_Flower_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Miitopia_-_Flower_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,8 +226,8 @@
   <data name="menu_unlockable_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_unlockable_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Miitopia_-_Pop_Star_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Miitopia_-_Pop_Star_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_outingsticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_outingsticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,11 +238,17 @@
   <data name="menu_unlockable_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_unlockable_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg_description" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_description.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="menu_inventory_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_inventory_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_questscleared" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_questscleared.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_jobslevelboost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_jobslevelboost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Menu_jobslevelboost_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Menu_jobslevelboost_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,6 +262,9 @@
   <data name="icon_extract" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_extract.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icon_mii_villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_mii_villa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MSE_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MSE_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -250,8 +277,11 @@
   <data name="Miitopia_-_Scientist_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Miitopia_-_Scientist_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="menu_grubs_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menu_grubs_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Miitopia_-_Thief_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Miitopia_-_Thief_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSE_logo_update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSE_logo_update.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu_party_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_party_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,23 +295,20 @@
   <data name="icon_level" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_level.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icon_medail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_medail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_grubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_grubs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_horse_girl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_horse_girl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_horse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_horse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_lightgreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_lightgreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_inn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_inn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_horse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_horse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu_Miitransfert_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_Miitransfert_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -295,11 +322,11 @@
   <data name="bg_selectmii" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_selectmii.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg_catalog_musics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_catalog_musics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg_chestsopen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_chestsopen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_unlockallclasses" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_unlockallclasses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg_pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -316,17 +343,23 @@
   <data name="Miitopia_-_Warrior_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Miitopia_-_Warrior_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg_feaempty_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_feaempty_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_horse_girl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_horse_girl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_catalog_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_catalog_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_dragon_on1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_dragon_on1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg_unlockinnoptions" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_unlockinnoptions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_unlocksprinkles" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_unlocksprinkles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu_party_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_party_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -337,14 +370,14 @@
   <data name="bg_yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="menu_grubs_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_grubs_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Menu_jobslevelboost_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Menu_jobslevelboost_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_horse_boy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_horse_boy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Miitopia_-_Cat_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Miitopia_-_Cat_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_success" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_success.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu_horse_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_horse_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -352,23 +385,23 @@
   <data name="Miitopia_-_Tank_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Miitopia_-_Tank_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_jobslevelboost" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_jobslevelboost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Miitopia_-_Cat_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Miitopia_-_Cat_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_description" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_description.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="menu_success_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_success_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_unlockallclasses" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_unlockallclasses.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon_outingticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_outingticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_party" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_party.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_grubs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_grubs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MSE_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MSE_title.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon_warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Miitopia_-_Princess_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Miitopia_-_Princess_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -379,19 +412,22 @@
   <data name="bg_unloclallamiibo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_unloclallamiibo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_success" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_success.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Miitopia_-_Elf_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Miitopia_-_Elf_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Miitopia_-_Vampire_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Miitopia_-_Vampire_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_feaempty_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_feaempty_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_catalog_clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_catalog_clothes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_mii_inn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_mii_inn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg_miiprofile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_miiprofile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_mii_villa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_mii_villa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="menu_miiprofile_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_miiprofile_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_miiprofile_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_miiprofile_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
