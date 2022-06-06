@@ -217,7 +217,7 @@ Public Class MSE_hub
 
     Private Sub Menu_text_miiprofile_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_miiprofile.MouseMove
         Menu_miiprofile.BackgroundImage = My.Resources.menu_miiprofile_on
-        Text_description.Text = "Edit Mii name (hero), war cry, pose, classe, personnality"
+        Text_description.Text = "Edit Mii name (hero), war cry, pose, job, personality"
         Panel_description.Visible = True
     End Sub
 

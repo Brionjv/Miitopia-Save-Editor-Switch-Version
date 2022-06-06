@@ -24,7 +24,7 @@ Partial Class MSE_miiprofile
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MSE_miiprofile))
         Me.Icon_innvilla = New System.Windows.Forms.PictureBox()
-        Me.Text_Miiname = New System.Windows.Forms.Label()
+        Me.Text_Miieditname = New System.Windows.Forms.Label()
         Me.Select_Mii = New System.Windows.Forms.ComboBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Icon_menu = New System.Windows.Forms.PictureBox()
@@ -35,6 +35,20 @@ Partial Class MSE_miiprofile
         Me.Icon_minimize = New System.Windows.Forms.PictureBox()
         Me.Icon_close = New System.Windows.Forms.PictureBox()
         Me.MSE_logo = New System.Windows.Forms.PictureBox()
+        Me.Title_miiname = New System.Windows.Forms.Label()
+        Me.Text_miiname = New System.Windows.Forms.TextBox()
+        Me.Text_warcry = New System.Windows.Forms.TextBox()
+        Me.Title_warcry = New System.Windows.Forms.Label()
+        Me.Select_personality = New System.Windows.Forms.ComboBox()
+        Me.Title_personality = New System.Windows.Forms.Label()
+        Me.Title_job = New System.Windows.Forms.Label()
+        Me.Select_job = New System.Windows.Forms.ComboBox()
+        Me.Title_pose = New System.Windows.Forms.Label()
+        Me.Select_pose = New System.Windows.Forms.ComboBox()
+        Me.Icon_job = New System.Windows.Forms.PictureBox()
+        Me.valu_job = New System.Windows.Forms.NumericUpDown()
+        Me.valu_personality = New System.Windows.Forms.NumericUpDown()
+        Me.valu_pose = New System.Windows.Forms.NumericUpDown()
         CType(Me.Icon_innvilla, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_menu, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -44,6 +58,10 @@ Partial Class MSE_miiprofile
         CType(Me.Icon_minimize, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_close, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Icon_job, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_job, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_personality, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.valu_pose, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Icon_innvilla
@@ -57,15 +75,15 @@ Partial Class MSE_miiprofile
         Me.Icon_innvilla.TabIndex = 81
         Me.Icon_innvilla.TabStop = False
         '
-        'Text_Miiname
+        'Text_Miieditname
         '
-        Me.Text_Miiname.BackColor = System.Drawing.Color.Transparent
-        Me.Text_Miiname.Location = New System.Drawing.Point(202, 118)
-        Me.Text_Miiname.Name = "Text_Miiname"
-        Me.Text_Miiname.Size = New System.Drawing.Size(111, 21)
-        Me.Text_Miiname.TabIndex = 79
-        Me.Text_Miiname.Text = "Mii"
-        Me.Text_Miiname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Text_Miieditname.BackColor = System.Drawing.Color.Transparent
+        Me.Text_Miieditname.Location = New System.Drawing.Point(202, 118)
+        Me.Text_Miieditname.Name = "Text_Miieditname"
+        Me.Text_Miieditname.Size = New System.Drawing.Size(111, 21)
+        Me.Text_Miieditname.TabIndex = 79
+        Me.Text_Miieditname.Text = "Mii"
+        Me.Text_Miieditname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Select_Mii
         '
@@ -177,14 +195,179 @@ Partial Class MSE_miiprofile
         Me.MSE_logo.TabIndex = 74
         Me.MSE_logo.TabStop = False
         '
+        'Title_miiname
+        '
+        Me.Title_miiname.BackColor = System.Drawing.Color.Transparent
+        Me.Title_miiname.Location = New System.Drawing.Point(136, 172)
+        Me.Title_miiname.Name = "Title_miiname"
+        Me.Title_miiname.Size = New System.Drawing.Size(130, 13)
+        Me.Title_miiname.TabIndex = 82
+        Me.Title_miiname.Text = "Nickname"
+        Me.Title_miiname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Text_miiname
+        '
+        Me.Text_miiname.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Text_miiname.Location = New System.Drawing.Point(136, 188)
+        Me.Text_miiname.MaxLength = 10
+        Me.Text_miiname.Name = "Text_miiname"
+        Me.Text_miiname.Size = New System.Drawing.Size(130, 13)
+        Me.Text_miiname.TabIndex = 83
+        '
+        'Text_warcry
+        '
+        Me.Text_warcry.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Text_warcry.Location = New System.Drawing.Point(434, 188)
+        Me.Text_warcry.MaxLength = 26
+        Me.Text_warcry.Name = "Text_warcry"
+        Me.Text_warcry.Size = New System.Drawing.Size(261, 13)
+        Me.Text_warcry.TabIndex = 85
+        '
+        'Title_warcry
+        '
+        Me.Title_warcry.BackColor = System.Drawing.Color.Transparent
+        Me.Title_warcry.Location = New System.Drawing.Point(434, 172)
+        Me.Title_warcry.Name = "Title_warcry"
+        Me.Title_warcry.Size = New System.Drawing.Size(261, 13)
+        Me.Title_warcry.TabIndex = 84
+        Me.Title_warcry.Text = "War cry"
+        Me.Title_warcry.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Select_personality
+        '
+        Me.Select_personality.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Select_personality.DropDownHeight = 80
+        Me.Select_personality.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_personality.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_personality.FormattingEnabled = True
+        Me.Select_personality.IntegralHeight = False
+        Me.Select_personality.Items.AddRange(New Object() {"Kind", "Energetic", "Laid-back", "Cool", "Cautious", "Air-headed", "Stubborn"})
+        Me.Select_personality.Location = New System.Drawing.Point(73, 248)
+        Me.Select_personality.Name = "Select_personality"
+        Me.Select_personality.Size = New System.Drawing.Size(142, 21)
+        Me.Select_personality.TabIndex = 86
+        '
+        'Title_personality
+        '
+        Me.Title_personality.BackColor = System.Drawing.Color.Transparent
+        Me.Title_personality.Location = New System.Drawing.Point(73, 232)
+        Me.Title_personality.Name = "Title_personality"
+        Me.Title_personality.Size = New System.Drawing.Size(142, 13)
+        Me.Title_personality.TabIndex = 87
+        Me.Title_personality.Text = "Personality"
+        Me.Title_personality.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Title_job
+        '
+        Me.Title_job.BackColor = System.Drawing.Color.Transparent
+        Me.Title_job.Location = New System.Drawing.Point(615, 232)
+        Me.Title_job.Name = "Title_job"
+        Me.Title_job.Size = New System.Drawing.Size(142, 13)
+        Me.Title_job.TabIndex = 89
+        Me.Title_job.Text = "Job"
+        Me.Title_job.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Select_job
+        '
+        Me.Select_job.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Select_job.DropDownHeight = 80
+        Me.Select_job.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_job.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_job.FormattingEnabled = True
+        Me.Select_job.IntegralHeight = False
+        Me.Select_job.Items.AddRange(New Object() {"Warrior", "Mage", "Cleric", "Thief", "Male Pop Star", "Female Pop Star", "Vampire", "Chef", "Tank", "Imp", "Princess", "Flower", "Scientist", "Cat", "Elf", "Traveler"})
+        Me.Select_job.Location = New System.Drawing.Point(615, 248)
+        Me.Select_job.Name = "Select_job"
+        Me.Select_job.Size = New System.Drawing.Size(142, 21)
+        Me.Select_job.TabIndex = 88
+        '
+        'Title_pose
+        '
+        Me.Title_pose.BackColor = System.Drawing.Color.Transparent
+        Me.Title_pose.Location = New System.Drawing.Point(334, 232)
+        Me.Title_pose.Name = "Title_pose"
+        Me.Title_pose.Size = New System.Drawing.Size(142, 13)
+        Me.Title_pose.TabIndex = 91
+        Me.Title_pose.Text = "Pose"
+        Me.Title_pose.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Select_pose
+        '
+        Me.Select_pose.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Select_pose.DropDownHeight = 80
+        Me.Select_pose.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Select_pose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Select_pose.FormattingEnabled = True
+        Me.Select_pose.IntegralHeight = False
+        Me.Select_pose.Items.AddRange(New Object() {"Pose 1", "Pose 2", "Pose 3", "Pose 4", "Pose 5", "Pose 6", "Pose 7", "Pose 8", "Pose 9", "Pose 10", "Pose 11", "Pose 12"})
+        Me.Select_pose.Location = New System.Drawing.Point(334, 248)
+        Me.Select_pose.Name = "Select_pose"
+        Me.Select_pose.Size = New System.Drawing.Size(142, 21)
+        Me.Select_pose.TabIndex = 90
+        '
+        'Icon_job
+        '
+        Me.Icon_job.BackColor = System.Drawing.Color.Transparent
+        Me.Icon_job.Image = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.Miitopia___Warrior_Icon
+        Me.Icon_job.Location = New System.Drawing.Point(568, 237)
+        Me.Icon_job.Name = "Icon_job"
+        Me.Icon_job.Size = New System.Drawing.Size(42, 42)
+        Me.Icon_job.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Icon_job.TabIndex = 92
+        Me.Icon_job.TabStop = False
+        '
+        'valu_job
+        '
+        Me.valu_job.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_job.Location = New System.Drawing.Point(615, 253)
+        Me.valu_job.Maximum = New Decimal(New Integer() {15, 0, 0, 0})
+        Me.valu_job.Name = "valu_job"
+        Me.valu_job.Size = New System.Drawing.Size(40, 16)
+        Me.valu_job.TabIndex = 93
+        Me.valu_job.Visible = False
+        '
+        'valu_personality
+        '
+        Me.valu_personality.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_personality.Location = New System.Drawing.Point(73, 253)
+        Me.valu_personality.Maximum = New Decimal(New Integer() {6, 0, 0, 0})
+        Me.valu_personality.Name = "valu_personality"
+        Me.valu_personality.Size = New System.Drawing.Size(40, 16)
+        Me.valu_personality.TabIndex = 94
+        Me.valu_personality.Visible = False
+        '
+        'valu_pose
+        '
+        Me.valu_pose.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.valu_pose.Location = New System.Drawing.Point(334, 253)
+        Me.valu_pose.Maximum = New Decimal(New Integer() {11, 0, 0, 0})
+        Me.valu_pose.Name = "valu_pose"
+        Me.valu_pose.Size = New System.Drawing.Size(40, 16)
+        Me.valu_pose.TabIndex = 95
+        Me.valu_pose.Visible = False
+        '
         'MSE_miiprofile
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_miiprofile
-        Me.ClientSize = New System.Drawing.Size(830, 450)
+        Me.ClientSize = New System.Drawing.Size(830, 316)
+        Me.Controls.Add(Me.valu_pose)
+        Me.Controls.Add(Me.valu_personality)
+        Me.Controls.Add(Me.valu_job)
+        Me.Controls.Add(Me.Icon_job)
+        Me.Controls.Add(Me.Title_pose)
+        Me.Controls.Add(Me.Select_pose)
+        Me.Controls.Add(Me.Title_job)
+        Me.Controls.Add(Me.Select_job)
+        Me.Controls.Add(Me.Title_personality)
+        Me.Controls.Add(Me.Select_personality)
+        Me.Controls.Add(Me.Text_warcry)
+        Me.Controls.Add(Me.Title_warcry)
+        Me.Controls.Add(Me.Text_miiname)
+        Me.Controls.Add(Me.Title_miiname)
         Me.Controls.Add(Me.Icon_innvilla)
-        Me.Controls.Add(Me.Text_Miiname)
+        Me.Controls.Add(Me.Text_Miieditname)
         Me.Controls.Add(Me.Select_Mii)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Icon_menu)
@@ -205,12 +388,17 @@ Partial Class MSE_miiprofile
         CType(Me.Icon_minimize, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Icon_close, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MSE_logo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Icon_job, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_job, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_personality, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.valu_pose, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Icon_innvilla As PictureBox
-    Friend WithEvents Text_Miiname As Label
+    Friend WithEvents Text_Miieditname As Label
     Friend WithEvents Select_Mii As ComboBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Icon_menu As PictureBox
@@ -221,4 +409,18 @@ Partial Class MSE_miiprofile
     Friend WithEvents Icon_minimize As PictureBox
     Friend WithEvents Icon_close As PictureBox
     Friend WithEvents MSE_logo As PictureBox
+    Friend WithEvents Title_miiname As Label
+    Friend WithEvents Text_miiname As TextBox
+    Friend WithEvents Text_warcry As TextBox
+    Friend WithEvents Title_warcry As Label
+    Friend WithEvents Select_personality As ComboBox
+    Friend WithEvents Title_personality As Label
+    Friend WithEvents Title_job As Label
+    Friend WithEvents Select_job As ComboBox
+    Friend WithEvents Title_pose As Label
+    Friend WithEvents Select_pose As ComboBox
+    Friend WithEvents Icon_job As PictureBox
+    Friend WithEvents valu_job As NumericUpDown
+    Friend WithEvents valu_personality As NumericUpDown
+    Friend WithEvents valu_pose As NumericUpDown
 End Class

@@ -197,6 +197,7 @@ Partial Class MSE_catalog
         Me.Text_catalog_weapons.Name = "Text_catalog_weapons"
         Me.Text_catalog_weapons.Size = New System.Drawing.Size(147, 13)
         Me.Text_catalog_weapons.TabIndex = 28
+        Me.Text_catalog_weapons.Visible = False
         '
         'Icon_catalog_weapons
         '
@@ -232,6 +233,7 @@ Partial Class MSE_catalog
         Me.Text_catalog_clothes.Name = "Text_catalog_clothes"
         Me.Text_catalog_clothes.Size = New System.Drawing.Size(147, 13)
         Me.Text_catalog_clothes.TabIndex = 28
+        Me.Text_catalog_clothes.Visible = False
         '
         'Icon_catalog_clothes
         '
@@ -267,6 +269,7 @@ Partial Class MSE_catalog
         Me.Text_catalog_grubs.Name = "Text_catalog_grubs"
         Me.Text_catalog_grubs.Size = New System.Drawing.Size(147, 13)
         Me.Text_catalog_grubs.TabIndex = 28
+        Me.Text_catalog_grubs.Visible = False
         '
         'Icon_catalog_grubs
         '
@@ -302,6 +305,7 @@ Partial Class MSE_catalog
         Me.Text_catalog_monsters.Name = "Text_catalog_monsters"
         Me.Text_catalog_monsters.Size = New System.Drawing.Size(147, 13)
         Me.Text_catalog_monsters.TabIndex = 27
+        Me.Text_catalog_monsters.Visible = False
         '
         'Icon_catalog_monsters
         '
@@ -337,6 +341,7 @@ Partial Class MSE_catalog
         Me.Text_catalog_musics.Name = "Text_catalog_musics"
         Me.Text_catalog_musics.Size = New System.Drawing.Size(147, 13)
         Me.Text_catalog_musics.TabIndex = 28
+        Me.Text_catalog_musics.Visible = False
         '
         'Icon_catalog_musics
         '
