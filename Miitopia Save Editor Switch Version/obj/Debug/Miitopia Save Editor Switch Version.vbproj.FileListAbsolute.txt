@@ -25,3 +25,4 @@ C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Ed
 C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Debug\Miitopia_Save_Editor_Switch_Version.MSE_jobslevelsboosts.resources
 C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Debug\Miitopia_Save_Editor_Switch_Version.MSE_catalog.resources
 C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Debug\Miitopia_Save_Editor_Switch_Version.MSE_miiprofile.resources
+C:\Users\brice\source\repos\Miitopia Save Editor Switch Version\Miitopia Save Editor Switch Version\obj\Debug\Miitopia_Save_Editor_Switch_Version.MSE_bodyandface.resources

@@ -56,6 +56,8 @@ Partial Class MSE_hub
         Me.Menu_text_catalog = New System.Windows.Forms.Label()
         Me.Menu_miiprofile = New System.Windows.Forms.Panel()
         Me.Menu_text_miiprofile = New System.Windows.Forms.Label()
+        Me.Menu_bodyandface = New System.Windows.Forms.Panel()
+        Me.Menu_text_bodyandface = New System.Windows.Forms.Label()
         Me.MSE_header.SuspendLayout()
         CType(Me.MSE_title, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Icon_minimize, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -75,6 +77,7 @@ Partial Class MSE_hub
         Me.Menu_jobslevelsboosts.SuspendLayout()
         Me.Menu_catalog.SuspendLayout()
         Me.Menu_miiprofile.SuspendLayout()
+        Me.Menu_bodyandface.SuspendLayout()
         Me.SuspendLayout()
         '
         'MSE_header
@@ -457,12 +460,37 @@ Partial Class MSE_hub
         Me.Menu_text_miiprofile.Text = "Mii profile"
         Me.Menu_text_miiprofile.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Menu_bodyandface
+        '
+        Me.Menu_bodyandface.BackColor = System.Drawing.Color.Transparent
+        Me.Menu_bodyandface.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.menu_bodyandface_off
+        Me.Menu_bodyandface.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Menu_bodyandface.Controls.Add(Me.Menu_text_bodyandface)
+        Me.Menu_bodyandface.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Menu_bodyandface.Location = New System.Drawing.Point(438, 393)
+        Me.Menu_bodyandface.Name = "Menu_bodyandface"
+        Me.Menu_bodyandface.Size = New System.Drawing.Size(160, 120)
+        Me.Menu_bodyandface.TabIndex = 18
+        '
+        'Menu_text_bodyandface
+        '
+        Me.Menu_text_bodyandface.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Menu_text_bodyandface.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Menu_text_bodyandface.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.Menu_text_bodyandface.Location = New System.Drawing.Point(0, 0)
+        Me.Menu_text_bodyandface.Name = "Menu_text_bodyandface"
+        Me.Menu_text_bodyandface.Size = New System.Drawing.Size(160, 120)
+        Me.Menu_text_bodyandface.TabIndex = 0
+        Me.Menu_text_bodyandface.Text = "    Mii common name" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "    body and face"
+        Me.Menu_text_bodyandface.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'MSE_hub
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Miitopia_Save_Editor_Switch_Version.My.Resources.Resources.bg_green
         Me.ClientSize = New System.Drawing.Size(830, 560)
+        Me.Controls.Add(Me.Menu_bodyandface)
         Me.Controls.Add(Me.Menu_miiprofile)
         Me.Controls.Add(Me.Panel_description)
         Me.Controls.Add(Me.Menu_catalog)
@@ -505,6 +533,7 @@ Partial Class MSE_hub
         Me.Menu_jobslevelsboosts.ResumeLayout(False)
         Me.Menu_catalog.ResumeLayout(False)
         Me.Menu_miiprofile.ResumeLayout(False)
+        Me.Menu_bodyandface.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -543,4 +572,6 @@ Partial Class MSE_hub
     Friend WithEvents Menu_text_catalog As Label
     Friend WithEvents Menu_miiprofile As Panel
     Friend WithEvents Menu_text_miiprofile As Label
+    Friend WithEvents Menu_bodyandface As Panel
+    Friend WithEvents Menu_text_bodyandface As Label
 End Class

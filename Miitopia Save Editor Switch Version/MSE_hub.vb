@@ -221,6 +221,22 @@ Public Class MSE_hub
         Panel_description.Visible = True
     End Sub
 
+    Private Sub Menu_text_bodyandface_Click(sender As Object, e As EventArgs) Handles Menu_text_bodyandface.Click
+        MSE_bodyandface.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Menu_text_bodyandface_MouseLeave(sender As Object, e As EventArgs) Handles Menu_text_bodyandface.MouseLeave
+        Menu_bodyandface.BackgroundImage = My.Resources.menu_bodyandface_off
+        Panel_description.Visible = False
+    End Sub
+
+    Private Sub Menu_text_bodyandface_MouseMove(sender As Object, e As MouseEventArgs) Handles Menu_text_bodyandface.MouseMove
+        Menu_bodyandface.BackgroundImage = My.Resources.menu_bodyandface_on
+        Text_description.Text = "Edit Mii name (common), favorite color, gender, body and face"
+        Panel_description.Visible = True
+    End Sub
+
     'end menu
 
     'update
